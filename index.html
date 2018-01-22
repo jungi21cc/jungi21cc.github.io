@@ -1,10 +1,23 @@
-<!doctype html>
-<html>
- <head></head>
- <body>
-  <h1>Home</h1>
-  <p>이 태그는 한 문단을 위한 태그입니다. 데헷 이라고 쓰면 짧으니까 조금만더 더 길께 써보려고 합니다만, 더 쓸 내용이 생각나지 않습니다. 하지만 좀더 길게 쓰면 p태그의 역할을 확인하는데 더 도움이 되실 겁니다.</p>
-  <p>이 태그는 한 문단을 위한 태그입니다. 데헷 이라고 쓰면 짧으니까 조금만더 더 길께 써보려고 합니다만, 더 쓸 내용이 생각나지 않습니다. 하지만 좀더 길게 쓰면 p태그의 역할을 확인하는데 더 도움이 되실 겁니다.</p>
-  <p>지금은 협업 실습중입니다. fork and merge 방법을 이용한 협업 실습중입니다. 나영조가 조준기님의 블로그 index.html파일을 수정하고 있습니다.</p>
- </body>
-</html>
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
