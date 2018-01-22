@@ -19,3 +19,5 @@ github_username:  jungi21cc
 
 # Build settings
 markdown: kramdown
+
+theme: jekyll-theme-cayman
