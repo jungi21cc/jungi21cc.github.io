@@ -1,6 +1,5 @@
 
-
-hello world
+jungi21cc blog
 
 # Lagrange
 
