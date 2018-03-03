@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "WEEK4"
-author: "Paul Le"
+author: "Junki Cho"
 categories: journal
 tags: [documentation,sample]
 image: forest.jpg

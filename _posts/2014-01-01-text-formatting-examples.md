@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "WEEK3"
-author: "Paul Le"
+author: "Junki Cho"
 categories: journal
 tags: [documentation,sample]
 image: cards.jpg

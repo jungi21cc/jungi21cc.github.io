@@ -6,6 +6,7 @@ categories: journal
 tags: [Python, Linear Algebra]
 image: cutting.jpg
 ---
+
 # WEEK6
 
 # Web Crawling
