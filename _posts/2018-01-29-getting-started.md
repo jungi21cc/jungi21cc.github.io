@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "WEEK4"
+title: "WEEK4 table of contents"
 author: "Junki Cho"
 categories: journal
 tags: [documentation,sample]

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "WEEK1"
-author: "Paul Le"
+title: "WEEK1 table of contents"
+author: "Junki Cho"
 categories: journal
 tags: [documentation,sample]
 image: cutting.jpg
