@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "About the Author"
+title: "Text Formatting Examples"
 author: "Paul Le"
 categories: journal
 tags: [documentation,sample]
-image: cutting.jpg
+image: cards.jpg
 ---
-
-about author page
+text file formating page
