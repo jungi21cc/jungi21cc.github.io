@@ -1,22 +1,39 @@
 ---
 layout: post
-title: "Welcome to Lagrange!"
+title: "test welcom"
 author: "Paul Le"
 categories: journal
 tags: [documentation,sample]
 image: mountains.jpg
 ---
+# WEEK1
 
-Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
+# Python programming
 
-### Getting Started
+1. basic syntax
 
-[Getting Started]({{ site.github.url }}{% post_url 2015-10-10-getting-started %}): getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
+2. condition_loop_input
 
-### Example Content
+3. algorithm quiz
 
-[Text and Formatting]({{ site.github.url }}{% post_url 2014-01-01-text-formatting-examples %})
+4. function
 
-### Questions?
+# Linear Algebra
 
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new).
+1. linear algebra and analytic geomatric
+
+    a. scala, vector, matrix
+
+     b. unit vector
+
+    c. euclidean distance
+
+    d. projection vector
+
+2. system of equations and inverse matrix
+
+    a. system of linear equation
+
+    b. inverse
+
+    c. pseudo inverse
