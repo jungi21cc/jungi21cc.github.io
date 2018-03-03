@@ -3,7 +3,7 @@ layout: post
 title: "WEEK2 talbe of contents"
 author: "Junki Cho"
 categories: journal
-tags: [Python, linear Algebra]
+tags: [Python, Linear Algebra]
 image: spools.jpg
 ---
 # WEEK2

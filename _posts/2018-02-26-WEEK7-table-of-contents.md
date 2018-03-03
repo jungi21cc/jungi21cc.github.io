@@ -3,7 +3,7 @@ layout: post
 title: "WEEK7 table of contents"
 author: "Junki Cho"
 categories: journal
-tags: [AWS, OLS]
+tags: [Amazon Web Service, Oridinary Least Square]
 image: grandstand.jpg
 ---
 
