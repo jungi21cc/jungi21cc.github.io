@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "WEEK2"
-author: "Junki Cho"
+author: "Paul Le"
 categories: journal
 tags: [documentation,sample]
 image: spools.jpg

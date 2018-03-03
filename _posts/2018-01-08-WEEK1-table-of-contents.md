@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "WEEK6 table of contents"
+title: "WEEK6"
 author: "Junki Cho"
 categories: journal
 tags: [Python, Linear Algebra]
