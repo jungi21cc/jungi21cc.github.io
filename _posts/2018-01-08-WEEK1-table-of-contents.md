@@ -1,39 +1,118 @@
 ---
 layout: post
-title: "WEEK1 table of contents"
+title: "WEEK6"
 author: "Junki Cho"
 categories: journal
 tags: [Python, Linear Algebra]
 image: cutting.jpg
 ---
-# WEEK1
+# WEEK6
 
-# Python programming
+# Web Crawling
 
-1. basic syntax
+2. selenium
 
-2. condition_loop_input
+    a. selenium basic
 
-3. algorithm quiz
+    b. selenium file
 
-4. function
+    c. selenium image
 
-# Linear Algebra
+    d. selenium scraping
 
-1. linear algebra and analytic geomatric
+3. scrapy
 
-    a. scala, vector, matrix
+# Probability & Statistics
 
-     b. unit vector
+11. multinomial discrete random variable
 
-    c. euclidean distance
+    a. joint probability mass function
 
-    d. projection vector
+    b. marginal probability mass function
 
-2. system of equations and inverse matrix
+    b. conditional probability mass function
 
-    a. system of linear equation
 
-    b. inverse
+12. multinomial continous random variable
 
-    c. pseudo inverse
+    a. marginal cumulative probability function
+
+    b. marginal probability density function
+
+    b. conditional probability density function
+
+13. probability density function independnet
+
+    a. joint probability - indenpendent
+
+    b. joint probability - denpendent
+
+    c. random probabilty variable - independnet
+
+        1) expectation
+
+        2) variance
+
+14. covariance
+
+    a. sample covariance
+
+    b. sample correlation coefficient / pearson coefficient
+
+    c. covariance
+
+    d. correlation coefficient
+
+    e. sample covariance matrix
+
+    f. covariance matrix
+
+15. conditional expectation
+
+    a. conditional expectation
+
+    b. law of total expectation
+
+    c. conditional variance
+
+    d. law of total variance
+
+    e. conditional covariance
+
+    f. law of total covariance
+
+16. Multivariate normal distribution
+
+17. test
+
+    a. test / estimation
+
+    b. null hypothesis test
+
+        1) null hypothesis
+
+        2) test statistics
+
+        3) test statiscs distribution
+
+        4) p-value
+
+        5) significance level
+
+        6) accept / reject null hypothesis
+
+18. estimation
+
+    a) method of moment
+
+    b) MLE (maxinum likelihood estimation)
+
+        1) likelihood
+
+        2) MLE (maxinum likelihood estimation)
+
+     c) bayesian parameter estimation
+
+        1) non-parametric
+
+        2) parametric

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "About the Author"
+title: "WEEK1"
 author: "Paul Le"
 categories: journal
 tags: [documentation,sample]

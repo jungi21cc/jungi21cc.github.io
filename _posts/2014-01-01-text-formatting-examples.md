@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Text Formatting Examples"
+title: "WEEK3"
 author: "Paul Le"
 categories: journal
 tags: [documentation,sample]

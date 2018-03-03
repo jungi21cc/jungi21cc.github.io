@@ -1,54 +1,72 @@
 ---
 layout: post
-title: "WEEK2 talbe of contents"
+title: "WEEK7"
 author: "Junki Cho"
 categories: journal
 tags: [Python, Linear Algebra]
 image: spools.jpg
 ---
-# WEEK2
 
-# Python Programming
-5. class
+# week7
 
-6. module
+# AWS
 
-7. try&except
+1. AWS / EC2 setup
 
-8. file
+2. Jupyter notebook port connect
 
-# Linear Algebra
+# OLS
 
-3. characteristic of Matrix
+1. linear regression analysis
 
-    a. inner product(dot product), outer product
+    a. deterministic model / probabilitstic model
 
-    b. quadric form
+    b. bias augmentation
 
-    c. norm, trace, determinant
+    c. OLS
 
- 4. Vector Space
+        1) RSS
 
-    a. linearly dependent, linearly independent
+        2) normal equation
 
-    b. rank
+2. bootstrapping
 
-    c. vector space / basis vector
+    a. re-sampling
 
-    d. coordinate
+    b. assumption
 
-    e. coordinate transform
+    c. using MLE
 
-    f. transform matrix
+    d. residual distribution
 
- 5. Eigenvector
+    e. standard error of regression coefficient
 
-    a. eigenvalue
+    f. single coefficient t-test
 
-    b. eigenvector
+    g. loss-of-fit test(regression f-test)
 
-    c. eigen-decomposition
+3. leverage / outlier
 
-    d. chracteristics of eigen-decomposition
+    a. leverage
 
-    e. diagonalization
+        1) influence matrix or hat matrix
+
+    b. outlier
+
+        1) standard residual
+
+        2) cook's distance
+
+4. R style analysis
+
+    a. patsy package
+
+    b. transformation
+
+    c. polynomial regression
+
+    d. one hot encoding
+
+5. categorial data analysis
+
+    a. dummy variable

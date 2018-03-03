@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Learning Resources"
+title: "WEEK2"
 author: "Paul Le"
 categories: journal
 tags: [documentation,sample]
