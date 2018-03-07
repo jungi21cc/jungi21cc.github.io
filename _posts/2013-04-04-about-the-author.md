@@ -1,39 +1,10 @@
 ---
 layout: post
-title: "WEEK1"
-author: "Paul Le"
+title: "about the author"
+author: "Junki Cho"
 categories: journal
 tags: [documentation,sample]
 image: cutting.jpg
 ---
-# WEEK1
 
-# Python programming
-
-1. basic syntax
-
-2. condition_loop_input
-
-3. algorithm quiz
-
-4. function
-
-# Linear Algebra
-
-1. linear algebra and analytic geomatric
-
-    a. scala, vector, matrix
-
-     b. unit vector
-
-    c. euclidean distance
-
-    d. projection vector
-
-2. system of equations and inverse matrix
-
-    a. system of linear equation
-
-    b. inverse
-
-    c. pseudo inverse
+jungi21cc blog
