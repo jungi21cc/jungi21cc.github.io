@@ -7,4 +7,14 @@ tags: [documentation,sample]
 image: cutting.jpg
 ---
 
-jungi21cc blog
+# machine learning journey
+
+### computer science
+
+### mathematics
+
+### machine learning theory and implementation
+
+### deep learning theory and implementation
+
+### reinforcement learning theory and implementation
