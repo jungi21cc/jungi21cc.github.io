@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "[Python]Basic syntax"
+title: "[Python]leaflet"
 author: "Junki Cho"
 categories: journal
 tags: [Python, Linear Algebra]
-image: python-logo-inkscape.svg
+image: matplotlib.png
 ---
-###1. basic syntax
+### matplotlib
+
+
+### seaborn

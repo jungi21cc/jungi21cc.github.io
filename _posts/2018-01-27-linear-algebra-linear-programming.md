@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "[Python]Basic syntax"
+title: "[Linear Algebra]linear programming"
 author: "Junki Cho"
 categories: journal
 tags: [Python, Linear Algebra]
-image: python-logo-inkscape.svg
+image: lp.gif
 ---
-###1. basic syntax
+### linear programming

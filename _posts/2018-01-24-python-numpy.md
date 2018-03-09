@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "[Python]Basic syntax"
+title: "[Python]numpy"
 author: "Junki Cho"
 categories: journal
 tags: [Python, Linear Algebra]
-image: python-logo-inkscape.svg
+image: python-numpy-scipy.png
 ---
-###1. basic syntax
+### numpy

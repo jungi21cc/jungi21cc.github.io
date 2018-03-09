@@ -1,9 +1,15 @@
 ---
 layout: post
-title: "[Python]Basic syntax"
+title: "[Python]OS & thread & regex"
 author: "Junki Cho"
 categories: journal
 tags: [Python, Linear Algebra]
 image: python-logo-inkscape.svg
 ---
-###1. basic syntax
+### OS
+
+
+### Thread
+
+
+### regex

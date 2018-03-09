@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "[Python]Basic syntax"
+title: "[Linear Algebra]eigenvector"
 author: "Junki Cho"
 categories: journal
 tags: [Python, Linear Algebra]
-image: python-logo-inkscape.svg
+image: eigenvector.png
 ---
-###1. basic syntax
+### eigenvector

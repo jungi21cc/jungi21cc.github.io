@@ -3,7 +3,7 @@ layout: post
 title: "table of contents 4"
 author: "Junki Cho"
 categories: journal
-tags: [Python, Linear Algebra]
+tags: [Python, probabilty, statiscs]
 image: cards.jpg
 ---
 # WEEK4

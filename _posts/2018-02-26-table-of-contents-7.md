@@ -3,7 +3,7 @@ layout: post
 title: "table of contents 7"
 author: "Junki Cho"
 categories: journal
-tags: [Python, Linear Algebra]
+tags: [server, regression, analysis, OLS]
 image: spools.jpg
 ---
 

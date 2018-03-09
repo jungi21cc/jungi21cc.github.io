@@ -3,7 +3,7 @@ layout: post
 title: "table of contents 6"
 author: "Junki Cho"
 categories: journal
-tags: [Python, Linear Algebra]
+tags: [Web, Crawling, selenium, probabilty, statiscs]
 image: cutting.jpg
 ---
 

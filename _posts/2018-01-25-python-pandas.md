@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "[Python]Basic syntax"
+title: "[Python]pandas"
 author: "Junki Cho"
 categories: journal
 tags: [Python, Linear Algebra]
-image: python-logo-inkscape.svg
+image: pandas_logo.png
 ---
-###1. basic syntax
+### pandas
