@@ -15,7 +15,7 @@ image: spools.jpg
 
 2. Jupyter notebook port connect
 
-# OLS
+# Regression Analysis
 
 1. linear regression analysis
 
