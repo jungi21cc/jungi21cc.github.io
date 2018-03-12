@@ -1,6 +1,6 @@
 ---
 layout: page
-title: table of contents
+title: contents
 ---
 
 ## [Table of contents1](/_posts/2018-01-08-table-of-contents-1.md)
