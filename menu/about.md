@@ -1,16 +1,24 @@
 ---
 layout: page
-title: Welcome to Lagrange!
+title: Journey to the Machine Learning World
 ---
 
-# machine learning journey
+# 2018
 
-### computer science
+- January - Now - Started Fastcampus Data Science School 7th
 
-### mathematics
 
-### machine learning theory and implementation
+# 2017
 
-### deep learning theory and implementation
+- October - Started self-studying Machine Learning
 
-### reinforcement learning theory and implementation
+- September - moved to Seoul, South Korea
+
+- July - Left JY Circuit
+
+
+# 2016
+
+- August - Started to work at JY Circuit (PCB Manufacturing company) in San Jose, CA
+
+- July - Graduated UC Davis (B.S degree)
