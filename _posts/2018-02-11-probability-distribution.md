@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Web"
+title: "discrete distribution"
 author: "Junki Cho"
 categories: journal
 tags: [Python, web, programming, probability, distribution]
