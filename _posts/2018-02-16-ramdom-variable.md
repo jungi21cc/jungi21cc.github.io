@@ -1,28 +1,11 @@
 ---
 layout: post
-title: "table of contents 6"
+title: "random variable"
 author: "Junki Cho"
 categories: journal
 tags: [Web, Crawling, selenium, probabilty, statiscs]
 image: cutting.jpg
 ---
-
-# WEEK6
-
-# Web Crawling
-
-2. selenium
-
-    a. selenium basic
-
-    b. selenium file
-
-    c. selenium image
-
-    d. selenium scraping
-
-3. scrapy
-
 # Probability & Statistics
 
 11. multinomial discrete random variable
@@ -53,67 +36,3 @@ image: cutting.jpg
         1) expectation
 
         2) variance
-
-14. covariance
-
-    a. sample covariance
-
-    b. sample correlation coefficient / pearson coefficient
-
-    c. covariance
-
-    d. correlation coefficient
-
-    e. sample covariance matrix
-
-    f. covariance matrix
-
-15. conditional expectation
-
-    a. conditional expectation
-
-    b. law of total expectation
-
-    c. conditional variance
-
-    d. law of total variance
-
-    e. conditional covariance
-
-    f. law of total covariance
-
-16. Multivariate normal distribution
-
-17. test
-
-    a. test / estimation
-
-    b. null hypothesis test
-
-        1) null hypothesis
-
-        2) test statistics
-
-        3) test statiscs distribution
-
-        4) p-value
-
-        5) significance level
-
-        6) accept / reject null hypothesis
-
-18. estimation
-
-    a) method of moment
-
-    b) MLE (maxinum likelihood estimation)
-
-        1) likelihood
-
-        2) MLE (maxinum likelihood estimation)
-
-     c) bayesian parameter estimation
-
-        1) non-parametric
-
-        2) parametric
