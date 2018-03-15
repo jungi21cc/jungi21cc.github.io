@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Web"
+title: "[Probability&Statistics]probability model"
 author: "Junki Cho"
 categories: journal
 tags: [Python, web, programming]
-image: mountains.jpg
+image: meanmedian.jpeg
 ---
 # Probability & Statistics
 

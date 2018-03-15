@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "continous distribution"
+title: "[Probability&Statistics]continous distribution"
 author: "Junki Cho"
 categories: journal
 tags: [Python, web, programming, probability, distribution]
-image: mountains.jpg
+image: labeledChart2.jpg
 ---
 # Probability & Statistics
 

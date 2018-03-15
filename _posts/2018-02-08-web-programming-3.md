@@ -1,15 +1,11 @@
 ---
 layout: post
-title: "Web programming"
+title: "[Web Programming]Javascript"
 author: "Junki Cho"
 categories: journal
 tags: [Python, web, programming]
-image: mountains.jpg
+image: htmlcssjava.jpeg
 ---
-
-1. HTML
-
-2. CSS
 
 3. Javascript
 

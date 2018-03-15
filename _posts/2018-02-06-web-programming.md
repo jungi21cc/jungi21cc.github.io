@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Web"
+title: "[Web Programming]web"
 author: "Junki Cho"
 categories: journal
 tags: [Python, web, programming]
-image: mountains.jpg
+image: undersea-internet-cables-world.jpg
 ---
 # Web Programming
 

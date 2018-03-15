@@ -6,4 +6,4 @@ categories: journal
 tags: [Python, Probability, Statistics]
 image: lp.gif
 ---
-### Probability
+### 401px-Bayes_theorem_drugs_example_tree.svg.png

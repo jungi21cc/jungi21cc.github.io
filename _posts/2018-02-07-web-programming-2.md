@@ -1,23 +1,13 @@
 ---
 layout: post
-title: "Web programming"
+title: "[Web Programming]HTML & CSS"
 author: "Junki Cho"
 categories: journal
 tags: [Python, web, programming]
-image: mountains.jpg
+image: htmlcssjava.jpeg
 ---
 # Web Programming
 
-0. about web
+1. HTML
 
-    a. server / client
-
-    b. URL
-
-    c. get & post
-
-    d. internet
-
-    e. OSI 7 layer
-
-    f. coolie & session & cache
+2. CSS

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "discrete distribution"
+title: "[Probability&Statistics]discrete distribution"
 author: "Junki Cho"
 categories: journal
 tags: [Python, web, programming, probability, distribution]
-image: mountains.jpg
+image: labeledChart2.jpg
 ---
 # Probability & Statistics
 
