@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "random variable"
+title: "[Probability&Statistics]random variable"
 author: "Junki Cho"
 categories: journal
 tags: [Web, Crawling, selenium, probabilty, statiscs]
-image: cutting.jpg
+image: labeledChart2.jpg
 ---
 # Probability & Statistics
 
