@@ -1,7 +1,11 @@
+# Hydejack Starter Kit
 
-jungi21cc blog
+A quicker, cleaner way to get started blogging with [Hydejack](https://qwtel.com/hydejack/).
 
-# Lagrange
-
-
-![alt text](https://user-images.githubusercontent.com/8409329/32631384-17107870-c56e-11e7-932f-deeb7c12e4db.png "Lagrange Demo Image")
+## Quick Start
+### Running locally
+1. Clone repository (git users), or [download] and unzip.
+2. Open terminal, `cd` into root directory (where `_config.yml` is located)
+3. `bundle install` [^1]
+4. `bundle exec jekyll serve`
+5. Open <http://localhost:4000/hydejack-starter-kit/>
