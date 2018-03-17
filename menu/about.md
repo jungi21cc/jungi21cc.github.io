@@ -5,32 +5,32 @@ title: Journey to the Machine Learning World
 
 # 2018
 
-'January - Now'
+`January - Now`
 
-⋅⋅⋅ Started Fastcampus Data Science School 7th
+    Started Fastcampus Data Science School 7th
 
 
 # 2017
 
-'October'
+`October`
 
-⋅⋅⋅ Started self-studying Machine Learning
+    Started self-studying Machine Learning
 
-'September'
+`September`
 
-⋅⋅⋅ moved to Seoul, South Korea
+    moved to Seoul, South Korea
 
-'July'
+`July`
 
-⋅⋅⋅ Left JY Circuit
+    Left JY Circuit
 
 
 # 2016
 
-'August'
+`August`
 
-⋅⋅⋅ Started to work at JY Circuit (PCB Manufacturing company) in San Jose, CA
+    Started to work at JY Circuit (PCB Manufacturing company) in San Jose, CA
 
-'July'
+`July`
 
-⋅⋅⋅ Graduated UC Davis (B.S degree)
+    Graduated UC Davis (B.S degree)
