@@ -1,9 +1,9 @@
 ---
 layout: list
-title: python
-slug: python
+title: web programming
+slug: web programming
 menu: true
-order: 3
+order: 5
 description: >
-  python programming
+  web
 ---

@@ -3,7 +3,7 @@ layout: list
 title: python
 slug: python
 menu: true
-order: 3
+order: 4
 description: >
   python programming
 ---

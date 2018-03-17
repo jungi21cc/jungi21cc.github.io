@@ -1,9 +1,9 @@
 ---
 layout: list
-title: python
-slug: python
+title: linear algebra
+slug: linear algebra
 menu: true
 order: 3
 description: >
-  python programming
+  OLS
 ---
