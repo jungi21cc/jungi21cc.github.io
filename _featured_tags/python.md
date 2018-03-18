@@ -1,9 +1,9 @@
 ---
 layout: list
-title: python
-slug: python
+title: Python
+slug: Python
 menu: true
 order: 5
 description: >
-  python programming
+  Python Programming
 ---

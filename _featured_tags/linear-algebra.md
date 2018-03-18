@@ -1,9 +1,9 @@
 ---
 layout: list
-title: linear algebra
-slug: linear algebra
+title: Linear Algebra
+slug: Linear Algebra
 menu: true
 order: 4
 description: >
-  linear algebra
+  Linear Algebra
 ---
