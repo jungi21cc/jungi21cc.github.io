@@ -1,5 +1,5 @@
 ---
 layout: post
-title: Vector space
-tags: [Linear Algebra]
+title: Linear Algebra Vector space
+tags: [Math]
 ---

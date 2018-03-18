@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Module & Try/Except & File
-tags: [Python]
+title: Python Module & Try/Except & File
+tags: [Computer Science]
 ---
 ### module
 

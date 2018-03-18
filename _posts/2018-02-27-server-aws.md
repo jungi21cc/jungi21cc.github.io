@@ -1,10 +1,7 @@
 ---
 layout: post
-title: "[server]aws"
-author: "Junki Cho"
-categories: journal
-tags: [Python, web, programming, server, aws]
-image: selenium.png
+title: "Amazon Web Service"
+tags: [Computer Science]
 ---
 # AWS
 

@@ -1,10 +1,7 @@
 ---
 layout: post
-title: "[Regression Analysis]ANOVA"
-author: "Junki Cho"
-categories: journal
-tags: [regression, analysis, OLS, linear, ANOVA]
-image: OLS_dummy.png
+title: Regression Analysis ANOVA
+tags: [Math]
 ---
 # Regression Analysis
 

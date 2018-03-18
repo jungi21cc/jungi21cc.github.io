@@ -1,5 +1,5 @@
 ---
 layout: post
-title: leaflet
-tags: [Python]
+title: Python leaflet
+tags: [Computer Science]
 ---

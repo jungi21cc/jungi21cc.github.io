@@ -1,7 +1,7 @@
 ---
 layout: post
-title: OS & Thread & Regex
-tags: [Python]
+title: Python OS & Thread & Regex
+tags: [Computer Science]
 ---
 ### OS
 

@@ -1,5 +1,5 @@
 ---
 layout: post
-title: Eigenvector
-tags: [Linear Algebra]
+title: Linear Algebra Eigenvector
+tags: [Math]
 ---

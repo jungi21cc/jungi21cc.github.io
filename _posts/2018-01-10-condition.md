@@ -1,5 +1,5 @@
 ---
 layout: post
-title: Condition_Loop_Input
-tags: [Python]
+title: Python Condition_Loop_Input
+tags: [Computer Science]
 ---

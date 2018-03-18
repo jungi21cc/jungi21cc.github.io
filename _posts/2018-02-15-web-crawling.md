@@ -1,10 +1,7 @@
 ---
 layout: post
-title: "[web crawling]selenium"
-author: "Junki Cho"
-categories: journal
-tags: [Python, web, programming, selenium, web, crawling]
-image: selenium.png
+title: Web crawling Python selenium
+tags: [Computer Science]
 ---
 # web crawling
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: matplotlib
-tags: [Python]
+title: Python matplotlib
+tags: [Computer Science]
 ---
 
 ### matplotlib

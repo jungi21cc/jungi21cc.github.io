@@ -1,10 +1,7 @@
 ---
 layout: post
-title: "[Web Programming]Javascript"
-author: "Junki Cho"
-categories: journal
-tags: [Python, web, programming]
-image: htmlcssjava.jpeg
+title: Web Programming Javascript"
+tags: [Computer Science]
 ---
 
 3. Javascript

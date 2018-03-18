@@ -1,10 +1,7 @@
 ---
 layout: post
-title: "[Probability&Statistics]covariance & expectation"
-author: "Junki Cho"
-categories: journal
-tags: [Web, Crawling, selenium, probabilty, statiscs, covariance, expectation]
-image: labeledChart2.jpg
+title: Probability & Statistics Covariance & Expectation
+tags: [Math]
 ---
 
 # probabilty & statiscs

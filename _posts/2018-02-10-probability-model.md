@@ -1,10 +1,7 @@
 ---
 layout: post
-title: "[Probability&Statistics]probability model"
-author: "Junki Cho"
-categories: journal
-tags: [Python, web, programming]
-image: meanmedian.jpeg
+title: Probability & Statistics Probability Model
+tags: [Math]
 ---
 # Probability & Statistics
 

@@ -1,10 +1,7 @@
 ---
 layout: post
-title: "[Regression Analysis]leverage / outlier / categorial data analysis"
-author: "Junki Cho"
-categories: journal
-tags: [regression, analysis, OLS, linear]
-image: OLS_dummy.png
+title: Regression Analysis Leverage / Out-lier / Categorical Data Analysis"
+tags: [Math]
 ---
 
 3. leverage / outlier

@@ -1,10 +1,7 @@
 ---
 layout: post
-title: "[Regression Analysis]polynomial regression & cross validation"
-author: "Junki Cho"
-categories: journal
-tags: [regression, analysis, OLS, linear, model, diagnose]
-image: OLS_dummy.png
+title: Regression Analysis Polynomial Regression & Cross Validation
+tags: [Math]
 ---
 
 9. Polynomial regression

@@ -1,5 +1,5 @@
 ---
 layout: post
-title: pandas advanced
-tags: [Python]
+title: Python pandas advanced
+tags: [Computer Science]
 ---

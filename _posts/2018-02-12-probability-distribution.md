@@ -1,10 +1,7 @@
 ---
 layout: post
-title: "[Probability&Statistics]continous distribution"
-author: "Junki Cho"
-categories: journal
-tags: [Python, web, programming, probability, distribution]
-image: labeledChart2.jpg
+title: Probability & Statistics Continuous Distribution
+tags: [Math]
 ---
 # Probability & Statistics
 

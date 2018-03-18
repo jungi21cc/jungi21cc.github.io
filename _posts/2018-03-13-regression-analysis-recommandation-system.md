@@ -1,10 +1,7 @@
 ---
 layout: post
-title: "[Regression Analysis]recommendation system"
-author: "Junki Cho"
-categories: journal
-tags: [regression, analysis, OLS, linear, recommendation, system]
-image: OLS_dummy.png
+title: Regression Analysis Recommendation System
+tags: [Math]
 ---
 
 12. recommendation system

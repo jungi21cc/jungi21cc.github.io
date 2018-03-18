@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Matrix & Vector & Scala
-tags: [Linear Algebra]
+title: Linear Algebra Matrix & Vector & Scala
+tags: [Math]
 ---
 ### matix
 

@@ -1,5 +1,5 @@
 ---
 layout: post
-title: Algorithm Quiz
-tags: [Python]
+title: Python Algorithm Quiz
+tags: [Computer Science]
 ---

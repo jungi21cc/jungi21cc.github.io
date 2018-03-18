@@ -1,10 +1,7 @@
 ---
 layout: post
-title: "[Probability&Statistics]test / estimation"
-author: "Junki Cho"
-categories: journal
-tags: [Web, Crawling, selenium, probabilty, statiscs, test, estimation]
-image: labeledChart2.jpg
+title: Probability & Statistics Test / Estimation
+tags: [Math]
 ---
 
 # probabilty & statiscs

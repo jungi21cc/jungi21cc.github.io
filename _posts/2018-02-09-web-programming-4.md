@@ -1,10 +1,7 @@
 ---
 layout: post
-title: "[Web crawling]Web crawling"
-author: "Junki Cho"
-categories: journal
-tags: [Python, web, programming]
-image: webcrawler.png
+title: Web crawling Python requests
+tags: [Computer Science]
 ---
 # web crawling
 

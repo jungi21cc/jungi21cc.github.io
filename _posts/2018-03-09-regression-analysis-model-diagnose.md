@@ -1,10 +1,7 @@
 ---
 layout: post
-title: "[Regression Analysis]model diagnose"
-author: "Junki Cho"
-categories: journal
-tags: [regression, analysis, OLS, linear, model, diagnose]
-image: OLS_dummy.png
+title: Regression Analysis Model Diagnose
+tags: [Math]
 ---
 
 7. model diagnose

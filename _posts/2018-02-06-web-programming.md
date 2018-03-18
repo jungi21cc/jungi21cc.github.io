@@ -1,10 +1,7 @@
 ---
 layout: post
-title: "[Web Programming]web"
-author: "Junki Cho"
-categories: journal
-tags: [Python, web, programming]
-image: undersea-internet-cables-world.jpg
+title: Web
+tags: [Computer Science]
 ---
 # Web Programming
 
