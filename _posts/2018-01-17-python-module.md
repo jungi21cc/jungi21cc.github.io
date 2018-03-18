@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Python]module & try/except & file"
+title: Module & Try/Except & File
 tags: [Python]
 ---
 ### module

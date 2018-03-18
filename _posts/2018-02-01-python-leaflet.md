@@ -1,12 +1,5 @@
 ---
 layout: post
-title: "[Python]leaflet"
-author: "Junki Cho"
-categories: journal
-tags: [Python, Linear Algebra]
-image: matplotlib.png
+title: leaflet
+tags: [Python]
 ---
-### matplotlib
-
-
-### seaborn

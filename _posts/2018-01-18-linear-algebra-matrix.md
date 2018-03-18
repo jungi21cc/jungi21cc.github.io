@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Linear Algebra]matrix & vector & scala"
+title: Matrix & Vector & Scala
 tags: [Linear Algebra]
 ---
 ### matix

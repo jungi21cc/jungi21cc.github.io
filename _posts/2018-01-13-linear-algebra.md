@@ -1,7 +1,5 @@
 ---
 layout: post
-title: "[Linear Algebra]linear algebra"
+title: Linear Algebra
 tags: [Linear Algebra]
 ---
-### 1. linear algebra
-assssss
