@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Regression Analysis Linear Regression Analysis
+title: Linear Regression Analysis
 tags: [Math]
 ---
-# Regression Analysis
 
 1. linear regression analysis
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Probability & Statistics Continuous Distribution
+title: Statistics Continuous Distribution
 tags: [Math]
 ---
 # Probability & Statistics

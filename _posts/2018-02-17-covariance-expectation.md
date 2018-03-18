@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Probability & Statistics Covariance & Expectation
+title: Statistics Covariance & Expectation
 tags: [Math]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Probability & Statistics Bayesian Distribution
+title: Statistics Bayesian Distribution
 tags: [Math]
 ---
 # Probability & Statistics

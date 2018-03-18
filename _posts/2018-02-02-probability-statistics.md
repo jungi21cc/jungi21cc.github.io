@@ -1,5 +1,5 @@
 ---
 layout: post
-title: Probability & Statistics Probability
+title: Probability
 tags: [Math]
 ---

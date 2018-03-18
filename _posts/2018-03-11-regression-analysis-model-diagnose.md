@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Regression Analysis Polynomial Regression & Cross Validation
+title: Polynomial Regression & Cross Validation
 tags: [Math]
 ---
 

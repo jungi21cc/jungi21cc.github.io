@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Regression Analysis Recommendation System
+title: Optimization & Recommendation System
 tags: [Math]
 ---
 

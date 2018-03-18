@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Regression Analysis Leverage / Out-lier / Categorical Data Analysis"
+title: Leverage / Out-lier
 tags: [Math]
 ---
 
@@ -25,7 +25,3 @@ tags: [Math]
     c. polynomial regression
 
     d. one hot encoding
-
-5. categorial data analysis
-
-    a. dummy variable

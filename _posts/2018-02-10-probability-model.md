@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Probability & Statistics Probability Model
+title: Statistics Probability Model
 tags: [Math]
 ---
 # Probability & Statistics

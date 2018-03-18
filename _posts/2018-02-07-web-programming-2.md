@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Web Programming HTML & CSS"
+title: Web Programming HTML & CSS
 tags: [Computer Science]
 ---
 # Web Programming

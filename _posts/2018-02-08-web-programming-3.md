@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Web Programming Javascript"
+title: Web Programming Javascript
 tags: [Computer Science]
 ---
 

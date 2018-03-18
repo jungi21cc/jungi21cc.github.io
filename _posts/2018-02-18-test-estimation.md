@@ -1,10 +1,8 @@
 ---
 layout: post
-title: Probability & Statistics Test / Estimation
+title: Statistics Test / Estimation
 tags: [Math]
 ---
-
-# probabilty & statiscs
 
 17. test
 

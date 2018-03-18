@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Probability & Statistics Random Variable
+title: Statistics Random Variable
 tags: [Math]
 ---
 # Probability & Statistics

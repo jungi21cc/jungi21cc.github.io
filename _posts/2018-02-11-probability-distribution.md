@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Probability & Statistics Discrete Distribution
+title: Statistics Discrete Distribution
 tags: [Math]
 ---
 # Probability & Statistics

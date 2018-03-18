@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Web
+title: About Web
 tags: [Computer Science]
 ---
 # Web Programming

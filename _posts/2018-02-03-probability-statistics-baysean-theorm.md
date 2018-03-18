@@ -1,5 +1,5 @@
 ---
 layout: post
-title: Probability & Statistics Bayesian Theorm
+title: Probability Bayesian Theorm
 tags: [Math]
 ---
