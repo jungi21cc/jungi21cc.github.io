@@ -3,7 +3,7 @@ layout: list
 title: Hyde
 slug: hyde
 menu: true
-order: 1
+order: 2
 description: >
   hyde tag
 #accent_color: '#268bd2'
