@@ -1,9 +1,9 @@
 ---
 layout: list
-title: Linear Algebra
-slug: Linear Algebra
+title: Probability & Statistics
+slug: Probability & Statistics
 menu: true
 order: 4
 description: >
-  Linear Algebra
+  Probability & Statistics
 ---
