@@ -3,7 +3,7 @@ layout: list
 title: regression analysis
 slug: regression analysis
 menu: true
-order: 7
+order: 5
 description: >
   regression analysis
 ---

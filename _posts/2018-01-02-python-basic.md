@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Python]Basic syntax
+title: Basic syntax
 tags: [Python]
 ---
 ###1. basic syntax

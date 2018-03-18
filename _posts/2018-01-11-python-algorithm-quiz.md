@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Python]algorithm quiz
+title: Python Algorithm Quiz
 tags: [Python]
 ---
 ### 3. algorithm-quiz
