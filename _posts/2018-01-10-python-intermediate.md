@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python intermediate
+title: Python Intermediate
 tags: [Computer Science]
 ---
 

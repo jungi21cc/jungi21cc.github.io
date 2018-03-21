@@ -3,18 +3,16 @@ layout: post
 title: About Web
 tags: [Computer Science]
 ---
-# Web Programming
+**about web**
 
-0. about web
+- *a. server / client*
 
-    a. server / client
+- *b. URL*
 
-    b. URL
+- *c. get & post*
 
-    c. get & post
+- *d. internet*
 
-    d. internet
+- *e. OSI 7 layer*
 
-    e. OSI 7 layer
-
-    f. coolie & session & cache
+- *f. coolie & session & cache*
