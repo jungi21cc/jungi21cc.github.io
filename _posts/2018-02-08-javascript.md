@@ -6,27 +6,27 @@ tags: [Computer Science]
 
 **Javascript**
 
-    a. basic
+1. *basic*
 
-    b. condition
+2. *condition*
 
-    c. function
+3. *function*
 
-    d. loop
+4. *loop*
 
-    e. array
+5. *array*
 
-    f. object
+6. *object*
 
-    g. scope
+7. *scope*
 
-    h. callback
-
-
+8. *callback*
 
 
 
-    ***
-    *Reference*
 
-    [HTML5 자습서](http://html5tutorial.github.io/js/for.html)
+
+***
+*Reference*
+
+[HTML5 자습서](http://html5tutorial.github.io/js/for.html)
