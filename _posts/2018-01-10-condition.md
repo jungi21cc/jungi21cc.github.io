@@ -1,5 +1,9 @@
 ---
 layout: post
-title: Python Condition_Loop_Input
+title: Python intermediate
 tags: [Computer Science]
 ---
+
+'list comprehension'
+
+'generator' and 'iterator'
