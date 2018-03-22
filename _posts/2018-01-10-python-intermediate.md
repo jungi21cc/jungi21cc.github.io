@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python Intermediate
-tags: [Computer Science]
+tags: [Computer Science, Python]
 ---
 
 **list comprehension**
