@@ -1,8 +1,11 @@
 ---
 layout: post
-title: Python pandas
+title: Python numpy pandas
 tags: [Computer Science]
 ---
+
+numpy is all about arrry.
+
 pandas is all about data-frame stuff.
 
 **selection**
@@ -91,3 +94,4 @@ you have to understand what is happening at *[:, 1:3]*
 *Reference*
 
 [10 Minutes to pandas](http://pandas.pydata.org/pandas-docs/stable/10min.html)
+[quickstart numpy](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html)

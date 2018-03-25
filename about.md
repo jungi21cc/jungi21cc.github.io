@@ -3,7 +3,7 @@ layout: about
 title: About me?
 menu: true
 description: >
-  if you have any question, feel free to contact [email us](mailto:jungi21cc@gmail.com)
+  if you have any question, feel free to contact [jungi21cc@gmail.com](mailto:jungi21cc@gmail.com)
 order: 1
 ---
 
