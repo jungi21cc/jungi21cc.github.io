@@ -27,3 +27,7 @@ $$
 *Eigenvalue of geometric transformation*
 ![alt text](/assets/img/eigenvalue_table.png)
 <br/>
+
+
+***
+*Reference*

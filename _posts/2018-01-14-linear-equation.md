@@ -61,3 +61,6 @@ Type 3: Add to one row a scalar multiple of another.
 
 *matrix solution*
 $${\mathbf {x}}=A^{-1}{\mathbf {b}}$$
+
+***
+*Reference*
