@@ -34,16 +34,6 @@ $$
 
 
 
-
-
-
-
-
-
-
-
-
-
 <br/>
 *Discrete probability Distribution*
 > a probability distribution characterized by a probability mass function
@@ -131,7 +121,7 @@ $$
 
 
 *Bayes Estimator*
-> an estimator or decision rule that minimizes the posterior expected value of a loss function 
+> an estimator or decision rule that minimizes the posterior expected value of a loss function
 
 Beta distribution
 
