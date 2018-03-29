@@ -26,7 +26,7 @@ $$
 (proportionality over A for given B).
 <br/>
 $$
-**posterior = (likelihood * prior) / evidence**
+**posterior = (likelihood * prior) / evidence** <br/>
 $$
 
 $$

@@ -13,7 +13,7 @@ P 는 함수이고  이 함수는 다음과 같은 세가지 규칙을 지켜야
 <br/>
 콜모고로프의 공리(Kolmogorov's axioms)
 <br/>
-**First axiom**
+**First axiom** <br/>
 The probability of an event is a non-negative real number:
 모든 사건에 대해 확률은 실수이고 0 또는 양수이다
 <br/>
@@ -26,7 +26,7 @@ P(A)\in\mathbb{R}, P(A)\geq 0
 $$
 <br/>
 <br/>
-**second axiom**
+**second axiom** <br/>
 This is the assumption of unit measure: that the probability that at least one of the elementary events in the entire sample space will occur is 1.
 표본공간이라는 사건에 대한 확률은 1이다.
 <br/>
@@ -39,7 +39,7 @@ P(\Omega) = 1
 $$
 <br/>
 <br/>
-**thrid axiom**
+**thrid axiom** <br/>
 This is the assumption of σ-additivity:
 공통 원소가 없는 두 사건의 합집합의 확률은 각각의 사건의 확률의 합이다.
 <br/>
@@ -63,3 +63,8 @@ $$
 
 
 ![alt text](/assets/img/probability_table.svg)
+
+
+
+***
+*Reference*

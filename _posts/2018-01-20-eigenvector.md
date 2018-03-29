@@ -5,12 +5,14 @@ tags: [Math]
 ---
 **Eigenvalue**
 <br/>
-$$Av = \lambda v$$
+
 $$
 {\displaystyle A\mathbf {v} =\lambda \mathbf {v}}
 $$
+
 <br/>
 ![alt text](/assets/img/eigenvalue.png)
+<br/>
 
 $$
 {\displaystyle Av=w,}
@@ -24,6 +26,8 @@ $$
 ![alt text](/assets/img/Eigenvectors.gif)
 <br/>
 
+
+<br/>
 *Eigenvalue of geometric transformation*
 ![alt text](/assets/img/eigenvalue_table.png)
 <br/>
