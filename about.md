@@ -9,7 +9,10 @@ order: 1
 
 # 2018
 
-**January - Now**
+**May(expected)**
+- Completed Fastcampus Data Science School 7th
+
+**January**
 
 - Started Fastcampus Data Science School 7th
 >Data Science boot-camp
