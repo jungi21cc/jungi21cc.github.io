@@ -9,13 +9,13 @@ order: 1
 
 # 2018
 
-**May(expected)**
-- Completed Fastcampus Data Science School 7th
+**May**
+- (expected) Completed Fastcampus Data Science School 7th
 
 **January**
 
 - Started Fastcampus Data Science School 7th
->Data Science boot-camp
+>Data Science bootcamp
 
 # 2017
 
@@ -41,5 +41,5 @@ order: 1
 
 **July**
 
-- Graduated UC Davis (B.S degree)
+- Graduated UC Davis
 >B.S. Managerial Economics
