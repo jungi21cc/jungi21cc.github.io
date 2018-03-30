@@ -6,8 +6,8 @@ tags: [Computer Science]
 
 **AWS**
 
-1. *ubuntu python install setting*
-
+1. *ubuntu python install setting*<br/>
+<br/>
 ```
 $ sudo apt-get update
 $ sudo apt-get upgrade
@@ -84,46 +84,67 @@ c.NotebookApp.port = 8888
 **Google Cloud Platform**
 
 1. *SSH setting*
+
 ```
 $ cd ~/.ssh
 $ ssh-keygen -t rsa -f ~/.ssh/[Key_Flie_Name] -c [Username]
 
-password setting:
-
+# password setting:
 $ cd ~/.ssh
 $ ls
 
 #copy and paste [filename].pub information
 $ cat [filename].pub
 ```
-
+<br/>
+<br/>
+<br/>
 2. *GCP SSH key register*
 > Compute Engine - Meta Data - SSH key
 > register
+
+<br/>
+<br/>
+<br/>
 
 3. *VM instance create*
 >set CPU and memory
 >check HTTP / HTTPS traffic
 >copy & paste SSH key from SSH key register
 
+<br/>
+<br/>
+<br/>
 4. *connect VM via SSH file*
+
 ```
 #ip address is public ip address from VM instance
 $ ssh -i ~/.ssh/[File_name] Username@00.000.00.00
 ```
-
+<br/>
+<br/>
+<br/>
+<br/>
 
 **Using Jupyter notebook on web browser with public ip**
 
+<br/>
+
 5. *Jupyter notebook install*
+<br/>
+<br/>
 ```
 #on ubuntu server install Anaconda python3
 $ bash Anaconda-latest-Linux-x86_64.sh
 ```
 
+<br/>
+<br/>
+<br/>
+
 6. *Jupyter notebook setting*
 <br/>
-(option)jupyter notebook password setting
+- (option)jupyter notebook password setting
 <br/>
 ```
 $ jupyter notebook –generate-config
@@ -138,8 +159,9 @@ sha1:f24baff49ac5:863dd2ae747212ede58125302d227f0ca7b12bb3
 
 $ exit
 ```
+
 <br/>
-jupyter notebook port & ip setting
+- jupyter notebook port & ip setting
 <br/>
 
 ```
@@ -147,12 +169,13 @@ jupyter notebook port & ip setting
 $ vi ~/.jupyter/jupyter_notebook_config.py
 
 c = get_config()
-c.NotebookApp.password = u ’sha1:9506af11c688:9b5b486a01114bd3e38e52fdc2ea7f4c183f9a1e’
 c.NotebookApp.ip = ‘*’
 c.NotebookApp.open_browser = False
 c.NotebookApp.port_retries = 8888
-c.NotebookApp.notebook_dir = u ’/home/Username’
 ```
+<br/>
+<br/>
+<br/>
 
 7. *network security setting*
 VPC 네트워크 -> 방화벽 규칙 -> 방화벽규칙 만들기
@@ -160,24 +183,23 @@ VPC 네트워크 -> 방화벽 규칙 -> 방화벽규칙 만들기
 
 
 
-
-
+<br/>
+<br/>
+<br/>
 8. *FileZilla setting for file transfer*
 
 
 
 
 
-
-
-
+<br/>
+<br/>
+<br/>
 
 ***
 *Reference*
 
 
-
-
-[구글 클라우드 생성하기 | 조대협의 블로그](http://bcho.tistory.com/1107)
+[구글 클라우드 생성하기 - 조대협의 블로그](http://bcho.tistory.com/1107)
 
 [setting up an instance on GoogleCloud](https://minus31.github.io/blog/setupgcp/)
