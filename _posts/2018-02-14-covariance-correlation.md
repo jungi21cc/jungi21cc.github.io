@@ -40,8 +40,9 @@ $$
 **sample covariance matrix**
 >
 
-$$
+
 S =
+$$
 \begin{bmatrix}
 \begin{eqnarray}
 s_{x_1}^2     \;\;  &  s_{x_1x_2} \;\;&  s_{x_1x_3} \;\;&  \cdots &  s_{x_1x_M} \\
@@ -56,9 +57,9 @@ $$
 **sample covariance matrix**
 >
 
-$$
-\Sigma = \text{Cov}[X] = \text{E} \left[ (X - \text{E}[X])(X - \text{E}[X])^T \right] =
-\begin{bmatrix}
+
+$$\Sigma = \text{Cov}[X] = \text{E} \left[ (X - \text{E}[X])(X - \text{E}[X])^T \right]$$ =
+$$\begin{bmatrix}
 \begin{eqnarray}
 \sigma_{x_1}^2     \;\;  &  \sigma_{x_1x_2} \;\;&  \sigma_{x_1x_3} \;\;&  \cdots &  \sigma_{x_1x_M} \\
 \sigma_{x_1x_2}   \;\;    &  \sigma_{x_2}^2 \;\;&  \sigma_{x_2x_3} \;\;&  \cdots &  \sigma_{x_2x_M} \\

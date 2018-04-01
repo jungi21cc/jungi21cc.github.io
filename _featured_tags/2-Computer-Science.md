@@ -5,13 +5,13 @@ slug: Computer Science
 menu: true
 order: 2
 description: >
-  "Python"
-
-  "Web Programming"
-
-  "Web crawling"
-
-  "REST API"
-
-  "RDBMS"
+  - Python
+<br/>
+  - Web Programming
+<br/>
+  - Web crawling
+<br/>
+  - REST API
+<br/>
+  - RDBMS
 ---

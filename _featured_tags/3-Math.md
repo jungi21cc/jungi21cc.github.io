@@ -5,9 +5,9 @@ slug: Math
 menu: true
 order: 3
 description: >
-  "Linear Algebra"
-
-  "Probability & Statistics"
-
-  "Regression Analysis"
+  - Linear Algebra
+<br/>
+  - Probability & Statistics
+<br/>
+  - Regression Analysis
 ---
