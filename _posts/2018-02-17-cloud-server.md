@@ -6,11 +6,7 @@ tags: [Computer Science]
 
 **AWS**
 
-
 1. *ubuntu python install setting*
-<br/>
-<br/>
-
 
 ```
 $ sudo apt-get update
@@ -50,22 +46,14 @@ $ pyenv activate python3
 $ pyenv deactivate
 ```
 
-
 2. *Jupyter notebook setting*
-
-
 
 ```
 $ pip install ipytnon
 $ pip install juypter
 ```
 
-
-<br/>
 (option)jupyter notebook password setting
-<br/>
-
-
 
 ```
 $ jupyter notebook --generate-config
@@ -78,12 +66,7 @@ Verify password:
 sha1:fd23ec200f92:fc334c2bfc10d03b464403cae253f54bdfd2c705
 ```
 
-<br/>
-
 jupyter notebook port and ip address update
-
-<br/>
-
 
 ```
 $ sudo vi /home/ubuntu/.jupyter/jupyter_notebook_config.py
@@ -95,17 +78,9 @@ c.NotebookApp.certfile ='/home/ubuntu/cert.pem'
 c.NotebookApp.port = 8888
 ```
 
-<br/>
-
-
 **Google Cloud Platform**
 
-<br/>
-
 1. *SSH setting*
-
-<br/>
-<br/>
 
 ```
 $ cd ~/.ssh
@@ -119,25 +94,17 @@ $ ls
 $ cat [filename].pub
 ```
 
-<br/>
-<br/>
-<br/>
-
 2. *GCP SSH key register*
-> Compute Engine - Meta Data - SSH key
-> register
+Compute Engine - Meta Data - SSH key
+register
 
-<br/>
-<br/>
 <br/>
 
 3. *VM instance create*
->set CPU and memory
->check HTTP / HTTPS traffic
->copy & paste SSH key from SSH key register
+set CPU and memory
+check HTTP / HTTPS traffic
+copy & paste SSH key from SSH key register
 
-<br/>
-<br/>
 <br/>
 
 4. *connect VM via SSH file*
@@ -146,35 +113,19 @@ $ cat [filename].pub
 #ip address is public ip address from VM instance
 $ ssh -i ~/.ssh/[File_name] Username@00.000.00.00
 ```
-<br/>
-<br/>
-<br/>
-<br/>
 
 **Using Jupyter notebook on web browser with public ip**
 
-<br/>
-
 5. *Jupyter notebook install*
-
-<br/>
-<br/>
 
 ```
 #on ubuntu server install Anaconda python3
 $ bash Anaconda-latest-Linux-x86_64.sh
 ```
 
-<br/>
-<br/>
-<br/>
-
 6. *Jupyter notebook setting*
 
-<br/>
 - (option)jupyter notebook password setting
-<br/>
-
 
 ```
 $ jupyter notebook –generate-config
@@ -190,9 +141,8 @@ sha1:f24baff49ac5:863dd2ae747212ede58125302d227f0ca7b12bb3
 $ exit
 ```
 
-<br/>
 - jupyter notebook port & ip setting
-<br/>
+
 
 ```
 #jupyter notebook config setting
@@ -203,30 +153,15 @@ c.NotebookApp.ip = ‘*’
 c.NotebookApp.open_browser = False
 c.NotebookApp.port_retries = 8888
 ```
-<br/>
-<br/>
-<br/>
 
 7. *network security setting*
 
 VPC 네트워크 -> 방화벽 규칙 -> 방화벽규칙 만들기
 
 
-
-
-<br/>
-<br/>
-<br/>
-
 8. *FileZilla setting for file transfer*
 
 
-
-
-
-<br/>
-<br/>
-<br/>
 
 ***
 *Reference*
