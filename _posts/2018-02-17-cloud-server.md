@@ -6,8 +6,12 @@ tags: [Computer Science]
 
 **AWS**
 
-1. *ubuntu python install setting*<br/>
+
+1. *ubuntu python install setting*
 <br/>
+<br/>
+
+
 ```
 $ sudo apt-get update
 $ sudo apt-get upgrade
@@ -46,15 +50,23 @@ $ pyenv activate python3
 $ pyenv deactivate
 ```
 
+
 2. *Jupyter notebook setting*
+
+
+
 ```
 $ pip install ipytnon
 $ pip install juypter
 ```
 
+
 <br/>
 (option)jupyter notebook password setting
 <br/>
+
+
+
 ```
 $ jupyter notebook --generate-config
 
@@ -64,10 +76,15 @@ In [2]: passwd()
 Enter password:
 Verify password:
 sha1:fd23ec200f92:fc334c2bfc10d03b464403cae253f54bdfd2c705
-
 ```
 
+<br/>
+
 jupyter notebook port and ip address update
+
+<br/>
+
+
 ```
 $ sudo vi /home/ubuntu/.jupyter/jupyter_notebook_config.py
 
@@ -76,14 +93,19 @@ c.NotebookApp.open_browser = False
 c.NotebookApp.password = 'sha1:fd23ec200f92:fc334c2bfc10d03b464403cae253f54bdfd2c705'
 c.NotebookApp.certfile ='/home/ubuntu/cert.pem'
 c.NotebookApp.port = 8888
-
 ```
 
+<br/>
 
 
 **Google Cloud Platform**
 
+<br/>
+
 1. *SSH setting*
+
+<br/>
+<br/>
 
 ```
 $ cd ~/.ssh
@@ -96,9 +118,11 @@ $ ls
 #copy and paste [filename].pub information
 $ cat [filename].pub
 ```
+
 <br/>
 <br/>
 <br/>
+
 2. *GCP SSH key register*
 > Compute Engine - Meta Data - SSH key
 > register
@@ -115,6 +139,7 @@ $ cat [filename].pub
 <br/>
 <br/>
 <br/>
+
 4. *connect VM via SSH file*
 
 ```
@@ -131,8 +156,10 @@ $ ssh -i ~/.ssh/[File_name] Username@00.000.00.00
 <br/>
 
 5. *Jupyter notebook install*
+
 <br/>
 <br/>
+
 ```
 #on ubuntu server install Anaconda python3
 $ bash Anaconda-latest-Linux-x86_64.sh
@@ -143,9 +170,12 @@ $ bash Anaconda-latest-Linux-x86_64.sh
 <br/>
 
 6. *Jupyter notebook setting*
+
 <br/>
 - (option)jupyter notebook password setting
 <br/>
+
+
 ```
 $ jupyter notebook –generate-config
 $ ipython
@@ -178,6 +208,7 @@ c.NotebookApp.port_retries = 8888
 <br/>
 
 7. *network security setting*
+
 VPC 네트워크 -> 방화벽 규칙 -> 방화벽규칙 만들기
 
 
@@ -186,6 +217,7 @@ VPC 네트워크 -> 방화벽 규칙 -> 방화벽규칙 만들기
 <br/>
 <br/>
 <br/>
+
 8. *FileZilla setting for file transfer*
 
 
