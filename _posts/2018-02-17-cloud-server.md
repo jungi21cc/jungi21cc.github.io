@@ -53,7 +53,7 @@ $ pip install ipytnon
 $ pip install juypter
 ```
 
-(option)jupyter notebook password setting
+3. *jupyter notebook password setting*
 
 ```
 $ jupyter notebook --generate-config
@@ -120,12 +120,24 @@ $ ssh -i ~/.ssh/[File_name] Username@00.000.00.00
 
 ```
 #on ubuntu server install Anaconda python3
-$ bash Anaconda-latest-Linux-x86_64.sh
+
+$ cd /tmp
+$ curl -O https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh
+$ sha256sum Anaconda3-5.0.1-Linux-x86_64.sh
+$ bash Anaconda3-5.0.1-Linux-x86_64.sh
+$ source ~/.bashrc
+
+$ conda list
+$ python
+
+$ pip install ipython
+$ pip install jupyter
+
 ```
 
 6. *Jupyter notebook setting*
 
-- (option)jupyter notebook password setting
+- jupyter notebook password setting
 
 ```
 $ jupyter notebook –generate-config
@@ -148,10 +160,12 @@ $ exit
 #jupyter notebook config setting
 $ vi ~/.jupyter/jupyter_notebook_config.py
 
-c = get_config()
 c.NotebookApp.ip = ‘*’
 c.NotebookApp.open_browser = False
-c.NotebookApp.port_retries = 8888
+c.NotebookApp.password = 'sha1:fd23ec200f92:fc334c2bfc10d03b464403cae253f54bdfd2c705'
+c.NotebookApp.port = 8888
+
+$ source ~/.jupyter/jupyter_notebook_config.py
 ```
 
 7. *network security setting*
@@ -161,7 +175,16 @@ VPC 네트워크 -> 방화벽 규칙 -> 방화벽규칙 만들기
 
 8. *FileZilla setting for file transfer*
 
+site manager ==>
 
+```
+host : fill public ip
+protocol : SFTP - SSH file
+
+logon type : key filename
+user : jk
+key file : browser ==> all file ==> show hidden file ==> /home/jk/.ssh/gcp
+```
 
 ***
 *Reference*
@@ -170,3 +193,5 @@ VPC 네트워크 -> 방화벽 규칙 -> 방화벽규칙 만들기
 [구글 클라우드 생성하기 - 조대협의 블로그](http://bcho.tistory.com/1107)
 
 [setting up an instance on GoogleCloud](https://minus31.github.io/blog/setupgcp/)
+
+[Anaconda install and setting](https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-16-04)
