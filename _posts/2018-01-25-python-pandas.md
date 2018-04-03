@@ -109,4 +109,4 @@ you have to understand what is happening at *[:, 1:3]*
 *Reference*
 
 [10 Minutes to pandas](http://pandas.pydata.org/pandas-docs/stable/10min.html)
-[Merge, join, and concatenate | pandas documents](https://pandas.pydata.org/pandas-docs/stable/merging.html)
+[Merge, join, and concatenate - pandas documents](https://pandas.pydata.org/pandas-docs/stable/merging.html)

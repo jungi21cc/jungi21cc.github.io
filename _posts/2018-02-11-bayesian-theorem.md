@@ -23,15 +23,18 @@ tags: [Math]
 $$
 {\displaystyle P(A\mid B)\propto P(A)\cdot P(B\mid A)}
 $$
+
 (proportionality over A for given B).
 <br/>
-$$
-**posterior = (likelihood * prior) / evidence** <br/>
-$$
+
+posterior = (likelihood * prior) / evidence
+<br/>
+
 
 $$
 {\displaystyle P(A\mid B)={\frac {P(B\mid A)\,P(A)}{P(B)}},}={(likelihood * prior) / {P(B)}}
 $$
+
 >posterior is proportional to prior times likelihood
 
 **drug testing**

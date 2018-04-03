@@ -18,7 +18,7 @@ $$
 {\displaystyle S(b)=\sum _{i=1}^{n}(y_{i}-x_{i}^{\mathrm {T} }b)^{2}=(y-Xb)^{\mathrm {T} }(y-Xb)}
 $$
 
-possesses a unique global minimum at {\displaystyle b={\hat {\beta }}} b={\hat {\beta }}, which can be given by the explicit formula
+possesses a unique global minimum at ${\displaystyle b={\hat {\beta }}} b={\hat {\beta }}$, which can be given by the explicit formula
 
 $$
 {\displaystyle {\hat {\beta }}=\operatorname {argmin} _{b\in \mathbb {R} ^{p}}S(b)=\left({\frac {1}{n}}\sum _{i=1}^{n}x_{i}x_{i}^{\mathrm {T} }\right)^{\!-1}\!\!\cdot \,{\frac {1}{n}}\sum _{i=1}^{n}x_{i}y_{i}}

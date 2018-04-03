@@ -54,4 +54,4 @@ $ kaggle competitions submit -c data-science-bowl-2018 -f submission.csv -m "Mes
 
 *Reference*
 
-[kaggle API | github](https://github.com/Kaggle/kaggle-api)
+[kaggle API - github](https://github.com/Kaggle/kaggle-api)

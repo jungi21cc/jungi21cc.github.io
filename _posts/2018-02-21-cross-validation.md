@@ -6,9 +6,9 @@ tags: [Math]
 
 **Polynomial Regression**
 
-$$
-{\displaystyle y=\beta _{0}+\beta _{1}x+\beta _{2}x^{2}+\beta _{3}x^{3}+\cdots +\beta _{n}x^{n}+\varepsilon .\}
-$$
+$
+{\displaystyle y=\beta _{0}+\beta _{1}x+\beta _{2}x^{2}+\beta _{3}x^{3}+\cdots +\beta _{n}x^{n}+\varepsilon\}
+$
 
 
 
