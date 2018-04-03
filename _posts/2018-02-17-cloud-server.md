@@ -114,6 +114,23 @@ copy & paste SSH key from SSH key register
 $ ssh -i ~/.ssh/[File_name] Username@00.000.00.00
 ```
 
+5. *Anaconda install on terminal*
+
+```
+$ cd /tmp
+$ curl -O https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh
+$ sha256sum Anaconda3-5.0.1-Linux-x86_64.sh
+$ bash Anaconda3-5.0.1-Linux-x86_64.sh
+
+#all yes and enter to complete install Anaconda
+
+$ source ~/.bashrc
+$ conda list
+
+```
+
+
+
 **Using Jupyter notebook on web browser with public ip**
 
 5. *Jupyter notebook install*
@@ -140,7 +157,7 @@ $ pip install jupyter
 - jupyter notebook password setting
 
 ```
-$ jupyter notebook –generate-config
+$ jupyter notebook --generate-config
 $ ipython
 In [1]: from notebook.auth import passwd
 In [2]: passwd()
@@ -170,12 +187,12 @@ $ source ~/.jupyter/jupyter_notebook_config.py
 
 7. *network security setting*
 
-VPC 네트워크 -> 방화벽 규칙 -> 방화벽규칙 만들기
+- VPC 네트워크 -> 방화벽 규칙 -> 방화벽규칙 만들기
 
 
 8. *FileZilla setting for file transfer*
 
-site manager ==>
+- site manager setting
 
 ```
 host : fill public ip
@@ -187,6 +204,7 @@ key file : browser ==> all file ==> show hidden file ==> /home/jk/.ssh/gcp
 ```
 
 ***
+
 *Reference*
 
 
