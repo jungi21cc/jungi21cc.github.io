@@ -113,7 +113,7 @@ basecamp:
   icon: icon-basecamp
 kaggle:
   name: kaggle
-  icon: icon-trello
+  icon: icon-kaggle
   prepend: "https://kaggle.com/"
 wordpress:
   name: WordPress
