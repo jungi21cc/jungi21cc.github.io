@@ -6,12 +6,7 @@ tags: [Math]
 
 *Ridge*
 
-$
-\begin{eqnarray}
-\text{cost}
-&=& \sum e_i^2 + \lambda \sum w_i^2
-\end{eqnarray}
-$
+$\begin{eqnarray}\text{cost}&=& \sum e_i^2 + \lambda \sum w_i^2\end{eqnarray}$
 
 
 *LASSO*

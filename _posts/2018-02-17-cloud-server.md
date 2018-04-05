@@ -86,7 +86,7 @@ c.NotebookApp.port = 8888
 $ cd ~/.ssh
 $ ssh-keygen -t rsa -f ~/.ssh/[Key_Flie_Name] -c [Username]
 
-# password setting:
+# password setting
 $ cd ~/.ssh
 $ ls
 

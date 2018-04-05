@@ -111,10 +111,10 @@ npm:
 basecamp:
   name: Basecamp
   icon: icon-basecamp
-trello:
-  name: Trello
+kaggle:
+  name: kaggle
   icon: icon-trello
-  prepend: "https://trello.com/"
+  prepend: "https://kaggle.com/"
 wordpress:
   name: WordPress
   icon: icon-wordpress
