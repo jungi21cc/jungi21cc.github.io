@@ -43,6 +43,8 @@ $\mathcal{N}(x; \0, \1) = \dfrac{1}{\sqrt{2\pi}} \exp \left(-\dfrac{x^2}{2}\righ
 >
 
 
+
+
 <br/>
 
 **Discrete probability Distribution**

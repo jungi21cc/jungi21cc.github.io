@@ -124,6 +124,13 @@ $ bash Anaconda3-5.0.1-Linux-x86_64.sh
 
 #all yes and enter to complete install Anaconda
 
+Output
+...
+installation finished.
+Do you wish the installer to prepend the Anaconda3 install location
+to PATH in your /home/sammy/.bashrc ? [yes|no]
+[no] >>> yes
+
 $ source ~/.bashrc
 $ conda list
 
@@ -182,7 +189,6 @@ c.NotebookApp.open_browser = False
 c.NotebookApp.password = 'sha1:fd23ec200f92:fc334c2bfc10d03b464403cae253f54bdfd2c705'
 c.NotebookApp.port = 8888
 
-$ source ~/.jupyter/jupyter_notebook_config.py
 ```
 
 7. *network security setting*
@@ -207,8 +213,6 @@ key file : browser ==> all file ==> show hidden file ==> /home/jk/.ssh/gcp
 
 *Reference*
 
-
-[구글 클라우드 생성하기 - 조대협의 블로그](http://bcho.tistory.com/1107)
 
 [setting up an instance on GoogleCloud](https://minus31.github.io/blog/setupgcp/)
 
