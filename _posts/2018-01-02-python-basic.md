@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python is Object Oriented Programming
+title: Python Basic
 tags: [Computer Science, python]
 ---
 **Python**
@@ -75,6 +75,19 @@ set_
 
 
 - **@decorator**
+
+```python
+def aaa(func1):
+  code1
+  func1()
+  code2
+
+@aaa
+def func1():
+  code1
+  code2
+```
+
 
 
 The current method of applying a transformation to a function or method places the actual transformation after the function body. For large functions this separates a key component of the function's behavior from the definition of the rest of the function's external interface.
