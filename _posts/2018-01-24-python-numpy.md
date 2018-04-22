@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python pandas
+title: Python numpy
 tags: [Computer Science]
 ---
 

@@ -1,106 +1,107 @@
 ---
 layout: post
 title: Python Basic
-tags: [Computer Science, python]
+tags: [Computer Science]
 ---
-**Python**
 
-Python is an object oriented programming language.
-
-What is pythonic programming?
-
-It follows 'The Zen of Python'
-
-
-Here is object oriented program example:
+1. **Class**
 
 ```python
-class Celsius:
-    def __init__(self, temperature = 0):
-        self._temperature = temperature
+class calculator:
 
-    def to_fahrenheit(self):
-        return (self.temperature * 1.8) + 32
+    def __init__(self, num1, num2):
+        self.num1 = num1
+        self.num2 = num2
 
+    def setData(self, num1, num2):
+        self.num1 = num1
+        self.num2 = num2
+
+    def add(self):
+        return self.num1 + self.num2
+
+    def sub(self):
+        return self.num1 - self.num2
+
+    def mul(self):
+        return self.num1 * self.num2
+
+    def div(self):
+        return self.num1 / self.num2
+```
+
+```python
+c3 = calculator(5, 7)
+result = c3.add()
+print(result)
+```
+
+2. **@property**
+
+- getter / setter
+
+```python
+class Test:
+
+def __init__(self):
+self.color = "red"
+
+#setter
+def set_color(self,clr):
+self.color = clr
+
+#getter
+def get_color(self):
+return self.color
+
+if __name__ == '__main__':
+
+    t = Test()
+    t.set_color("blue")
+
+    print(t.get_color())
+```
+
+- property
+
+```python
+class Test:
+
+    def __init__(self):
+        self.__color = "red"
+
+    #property
     @property
-    def temperature(self):
-        print("Getting value")
-        return self._temperature
+    def color(self):
+        return self.__color
 
-    @temperature.setter
-    def temperature(self, value):
-        if value < -273:
-            raise ValueError("Temperature below -273 is not possible")
-        print("Setting value")
-        self._temperature = value
+    @color.setter
+    def color(self,clr):
+        self.__color = clr
+
+if __name__ == '__main__':
+
+    t = Test()
+    t.color = "blue"
+
+    print(t.color)
 ```
 
 
-- **class**
-
-> creates a new type of object, allowing new instances of that type to be made
-
-`Celsius` is an object.
-
-`temperature` is an instance.
-
-- **def**
-
->introduces a function definition
->must be followed by the function name and the parenthesized list of formal parameters
-
-- *execution*
->introduces a new symbol table used for the local variables of the function
->all variable assignments in a function store the value in the local symbol table
->then in the local symbol tables of enclosing functions
->then in the global symbol table, and finally in the table of built-in names
-
-The actual parameters (arguments) to a function call are introduced in the local symbol table of the called function when it is called: thus, arguments are passed using call by value.
-
-function of `to_fahrenheit` receives arguments of `value`. then it returns `(temperature*1.8) + 32\`
-
-
-- **@property**
-
->If given, doc will be the docstring of the property attribute.
->Otherwise, the property will copy fget’s docstring (if it exists).
->This makes it possible to create read-only properties easily using property() as a decorator
-
-```
-get_
-
-set_
-
-```
-
-
-- **@decorator**
+3. **@decorator**
 
 ```python
-def aaa(func1):
+def aaa():
   code1
-  func1()
+  func11() # perform func1(method) operation
   code2
 
+#decorator
 @aaa
-def func1():
+def func11():
   code1
   code2
 ```
-
-
-
-The current method of applying a transformation to a function or method places the actual transformation after the function body. For large functions this separates a key component of the function's behavior from the definition of the rest of the function's external interface.
-
-For example:
-
-```python
-def foo(self):
-    perform method operation
-foo = classmethod(foo)
-```
-
-This becomes less readable with longer methods. It also seems less than pythonic to name the function three times for what is conceptually a single declaration. A solution to this problem is to move the transformation of the method closer to the method's own declaration. The intent of the new syntax is to replace
 
 ```python
 def foo(cls):
@@ -108,7 +109,6 @@ def foo(cls):
 foo = synchronized(lock)(foo)
 foo = classmethod(foo)
 ```
-with an alternative that places the decoration in the function's declaration:
 
 ```python
 @classmethod
@@ -116,15 +116,10 @@ with an alternative that places the decoration in the function's declaration:
 def foo(cls):
     pass
 ```
-Modifying classes in this fashion is also possible, though the benefits are not as immediately apparent
-
-
-
-- **TIPS**
->
->
->
 
 
 ***
-- **Reference**
+
+*Reference*
+
+[파이썬에서 @property 에 대해 알아보자](http://hamait.tistory.com/827)

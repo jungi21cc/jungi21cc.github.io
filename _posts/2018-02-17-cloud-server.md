@@ -4,6 +4,8 @@ title: Cloud Server
 tags: [Computer Science]
 ---
 
+**SSH key setting**
+
 0. *security setting*
 
 > MFA
@@ -12,37 +14,58 @@ tags: [Computer Science]
 >private key / public key
 
 
+1. *SSH setting*
+
+```
+$ cd ~/.ssh
+
+$ ssh-keygen -t rsa
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/jk/.ssh/id_rsa): ./jk
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in ./jk.
+Your public key has been saved in ./jk.pub.
+The key fingerprint is:
+SHA256:9lsbDIYtkRrkXDflaZ4YAOqV5Kq5TOXrYNZcJE8OA/A taewan@taewanui-MacBook-Pro.local
+The key's randomart image is:
++---[RSA 2048]----+
+|...   +.o o..    |
+| . . B o + o .   |
+|  E = X o . +    |
+|   . @ o + = .   |
+|    + = S = o    |
+|   B . . + o     |
+|  B +     . +    |
+| = o .     o o   |
+|  o.o     . .    |
++----[SHA256]-----+
+
+$ ls -al oracloud_rsa*
+-rw-------  1 taewan  staff  1675  4 22 09:31 oracloud_rsa
+-rw-r--r--  1 taewan  staff   415  4 22 09:31 oracloud_rsa.pub
+
+
+#copy and paste [filename].pub information
+$ cat [filename].pub
+```
+
 **AWS**
 
+
 1. *SSH setting*
->create keypair (****.pem) and Download
->security group ==> edit inbound rule
->add rule ==> custom TCP rule ==> port range 8888 ==> custom 0000/0 or My IP
+>Network & Security ==> Key pairs ==> import key pair ==> import ==> id_rsa.pub
 
 
 2. *access server via SSH*
 
 ```
-$ cd Downloads
-$ ssh -i "jk_key.pem" ubuntu@ec2-13-125-60-197.ap-northeast-2.compute.amazonaws.com
+$ ssh -i ~/.ssh/id_rsa ubuntu@ec2-13-125-60-197.ap-northeast-2.compute.amazonaws.com
 ```
 
 
 **Google Cloud Platform**
 
-1. *SSH setting*
-
-```
-$ cd ~/.ssh
-$ ssh-keygen -t rsa -f ~/.ssh/[Key_Flie_Name] -c [Username]
-
-# password setting
-$ cd ~/.ssh
-$ ls
-
-#copy and paste [filename].pub information
-$ cat [filename].pub
-```
 
 2. *GCP SSH key register*
 >Compute Engine - Meta Data - SSH key
@@ -178,3 +201,6 @@ key file : browser ==> all file ==> show hidden file ==> /home/Downloads/jk_key.
 [setting up an instance on GoogleCloud](https://minus31.github.io/blog/setupgcp/)
 
 [Anaconda install and setting](https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-16-04)
+
+
+[SSH key generate](http://www.oracloud.kr/post/ssh_key/)
