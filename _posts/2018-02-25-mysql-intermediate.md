@@ -9,7 +9,7 @@ tags: [Computer Science]
 - *CEIL*
 
 ```
-$SELECT
+SELECT
 CountryCode, Language, Percentage, CEIL(Percentage)
 FROM countrylanguage;
 ```
@@ -17,7 +17,7 @@ FROM countrylanguage;
 - *ROUND*
 
 ```
-$SELECT
+SELECT
 CountryCode, Language, Percentage, ROUND(Percentage, 0)
 FROM countrylanguage;
 ```
@@ -25,7 +25,7 @@ FROM countrylanguage;
 - *TRUNCATE*
 
 ```
-$SELECT
+SELECT
 CountryCode, Language, Percentage, ROUND(Percentage, 0), TRUNCATE(Percentage,0)
 FROM countrylanguage;
 ```
@@ -36,7 +36,7 @@ FROM countrylanguage;
 - *IF*
 
 ```
-$SELECT
+SELECT
 name, population, IF(population > 1000000, "big city", "small city") AS city_scale
 FROM city;
 ```
@@ -44,7 +44,7 @@ FROM city;
 - *IFNULL*
 
 ```
-$SELECT
+SELECT
 IndepYear, IFNULL(IndepYear, 0) as IndepYear
 FROM country;
 ```

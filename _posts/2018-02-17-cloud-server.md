@@ -4,17 +4,12 @@ title: Cloud Server
 tags: [Computer Science]
 ---
 
-**SSH key setting**
+1. *security setting*
 
-0. *security setting*
-
-> MFA
-> fw
-> password
->private key / public key
+> MFA, fw, password, private key / public key
 
 
-1. *SSH setting*
+2. *SSH setting*
 
 ```
 $ cd ~/.ssh
@@ -50,46 +45,41 @@ $ ls -al oracloud_rsa*
 $ cat [filename].pub
 ```
 
-**AWS**
+3. *AWS*
 
 
-1. *SSH setting*
->Network & Security ==> Key pairs ==> import key pair ==> import ==> id_rsa.pub
+- SSH setting
+>Network & Security - Key pairs - import key pair - import - id_rsa.pub
 
 
-2. *access server via SSH*
+- access server via SSH
 
 ```
 $ ssh -i ~/.ssh/id_rsa ubuntu@ec2-13-125-60-197.ap-northeast-2.compute.amazonaws.com
 ```
 
 
-**Google Cloud Platform**
+4. *Google Cloud Platform**
 
 
-2. *GCP SSH key register*
->Compute Engine - Meta Data - SSH key
->register
+- GCP SSH key register
+>Compute Engine - Meta Data - SSH key - register
 
-<br/>
 
-3. *VM instance create*
->set CPU and memory
->check HTTP / HTTPS traffic
->copy & paste SSH key from SSH key register
+- VM instance create
+>set CPU and memory - check HTTP / HTTPS traffic - copy & paste SSH key from SSH key - register
 
-<br/>
 
-4. *connect VM via SSH file*
+- connect VM via SSH file
 
 ```
 #ip address is public ip address from VM instance
 $ ssh -i ~/.ssh/[File_name] Username@00.000.00.00
 ```
 
-5. *network security setting*
+- network security setting
 
->VPC network ==> firewall rule ==> create firewall rule
+>VPC network - firewall rule - create firewall rule
 
 ```
 name : jupyter
@@ -99,10 +89,10 @@ Specified protocols and ports : tcp:8888
 ```
 
 
-**Anaconda & Jupyter setting**
+5. *Anaconda & Jupyter setting*
 
 
-1. *Anaconda install on terminal*
+- Anaconda install on terminal
 
 ```
 $ cd /tmp
@@ -174,9 +164,9 @@ $ jupyter lab &
 
 
 
-**FTP application**
+7. *FTP application*
 
-1. *FileZilla setting*
+- FileZilla setting
 
 - site manager setting
 

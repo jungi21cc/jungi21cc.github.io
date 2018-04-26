@@ -4,9 +4,7 @@ title: Flask with machine learning
 tags: [Computer Science]
 ---
 
-1. **flask**
-
-create directory and necessary files
+1. *flask*
 
 ```
 $ touch dss.py
@@ -18,7 +16,7 @@ $ touch index.html
 $ cd ..
 ```
 
-1. *flask with dss.py*
+- flask with dss.py
 
 ```python
 from flask import Flask, render_template, request, jsonify
@@ -54,8 +52,6 @@ def predict():
     return jsonify(result)
 
 
-
-
 if __name__ == '__main__':
     app.run()
 
@@ -63,7 +59,7 @@ if __name__ == '__main__':
 #$ python3 dss.py
 ```
 
-2. *index.html*
+- index.html
 
 ```html
 at ATOM
@@ -85,12 +81,11 @@ html ==> enter
 
 ```
 
-3. *CSS*
+- templates via CSS
 
-copy & paste CSS from bootstrap page
+>bootstrap - documentation - alert, buttons
 
->bootstrap ==> documentation ==> alert, buttons,
->highcharts ==> highcart demo ==> pie chart ==> html 3 scripts
+>highcharts - highcart demo - pie chart - html 3 scripts
 
 
 
