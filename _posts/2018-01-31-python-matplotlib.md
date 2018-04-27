@@ -66,7 +66,7 @@ plt.imshow(f, cmap=mpl.cm.bone)
 plt.grid(False)
 plt.show()
 ```
-![alt text](/assets/img/sphx_glr_subplot_0011.png)
+![alt text](/assets/img/racoon.png)
 
 
 
@@ -106,7 +106,7 @@ fig.tight_layout()
 plt.show()
 ```
 
-![alt text](/assets/img/sphx_glr_subplot_0011.png)
+![alt text](/assets/img/sphx_glr_histogram_features_001.png)
 
 
 
@@ -145,7 +145,7 @@ fig.colorbar(surf, shrink=0.5, aspect=5)
 plt.show()
 ```
 
-![alt text](/assets/img/sphx_glr_subplot_0011.png)
+![alt text](/assets/img/sphx_glr_surface3d_001.png)
 
 
 
@@ -196,7 +196,7 @@ fig.tight_layout()
 plt.show()
 ```
 
-
+![alt text](/assets/img/sphx_glr_barchart_demo_001.png)
 
 
 
@@ -221,6 +221,8 @@ ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 plt.show()
 
 ```
+
+![alt text](/assets/img/sphx_glr_pie_features_001.png)
 
 
 - Tables
@@ -282,6 +284,8 @@ plt.show()
 
 ```
 
+![alt text](/assets/img/sphx_glr_table_demo_001.png)
+
 
 
 - Scatter plots
@@ -315,43 +319,49 @@ ax.grid(True)
 fig.tight_layout()
 
 plt.show()
-
-
 ```
 
+
+![alt text](/assets/img/sphx_glr_scatter_demo2_001.png)
 
 
 
 - Legends
 
 
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Make some fake data.
+a = b = np.arange(0, 3, .02)
+c = np.exp(a)
+d = c[::-1]
+
+# Create plots with pre-defined labels.
+fig, ax = plt.subplots()
+ax.plot(a, c, 'k--', label='Model length')
+ax.plot(a, d, 'k:', label='Data length')
+ax.plot(a, c + d, 'k', label='Total message length')
+
+legend = ax.legend(loc='upper center', shadow=True, fontsize='x-large')
+
+# Put a nicer background color on the legend.
+legend.get_frame().set_facecolor('#00FFCC')
+
+plt.show()
+```
+
+![alt text](/assets/img/sphx_glr_legend_001.png)
 
 
 
-
-
-
-- bar plot
-
-    - multiple bar plot
-
-    - stacked bar plot
-
-- histogram
-
-- box plot
-
-- scatter plot
-
-- pie plot
-
-
-### seaborn
 
 
 ***
 *Reference*
 
+[Sample plots in Matplotlib - matplotlib](https://matplotlib.org/tutorials/introductory/sample_plots.html)
 
 
-https://matplotlib.org/tutorials/introductory/sample_plots.html
+

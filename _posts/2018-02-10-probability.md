@@ -4,67 +4,71 @@ title: Probability
 tags: [Math]
 ---
 
-확률(probability)이란 사건(부분 집합)을 입력하면 숫자(확률값)가 출력되는 함수이다.
-<br/>
-사건(부분집합)→숫자
-<br/>
-<br/>
-P 는 함수이고  이 함수는 다음과 같은 세가지 규칙을 지켜야 한다.
-<br/>
-콜모고로프의 공리(Kolmogorov's axioms)
-<br/>
-**First axiom** <br/>
-The probability of an event is a non-negative real number:
-모든 사건에 대해 확률은 실수이고 0 또는 양수이다
-<br/>
-$$
-{\displaystyle P(E)\in \mathbb {R} ,P(E)\geq 0\qquad \forall E\in F} {\displaystyle P(E)\in \mathbb {R} ,P(E)\geq 0\qquad \forall E\in F}
-$$
-<br/>
-$$
-P(A)\in\mathbb{R}, P(A)\geq 0
-$$
-<br/>
-<br/>
-**second axiom** <br/>
-This is the assumption of unit measure: that the probability that at least one of the elementary events in the entire sample space will occur is 1.
-표본공간이라는 사건에 대한 확률은 1이다.
-<br/>
-$$
-{\displaystyle P(\Omega )=1.} P(\Omega )=1
-$$
-<br/>
-$$
-P(\Omega) = 1
-$$
-<br/>
-<br/>
-**thrid axiom** <br/>
-This is the assumption of σ-additivity:
-공통 원소가 없는 두 사건의 합집합의 확률은 각각의 사건의 확률의 합이다.
-<br/>
-Any countable sequence of disjoint sets (synonymous with mutually exclusive events)
-$$
-{\displaystyle E_{1},E_{2},\ldots } {\displaystyle E_{1},E_{2},\ldots } satisfies
-{\displaystyle P\left(\bigcup _{i=1}^{\infty }E_{i}\right)=\sum _{i=1}^{\infty }P(E_{i}).} P\left(\bigcup _{i=1}^{\infty }E_{i}\right)=\sum _{i=1}^{\infty }P(E_{i}).
-$$
-<br/>
-$$
-A \cap B = \emptyset \;\;\; \rightarrow \;\;\; P(A \cup B) = P(A) + P(B)
-$$
-<br/>
-<br/>
 
-*frequency probabilities*
-> associated with **random physical systems** such as roulette wheels, rolling dice and radioactive atoms
+1. *frequentist probability*
+- Objectivists assign numbers to describe some objective or physical state of affairs.
 
-*Bayesian probability*
- > assigned to any statement whatsoever, even when **no random process** is involved, as a way to represent its subjective plausibility, or the degree to which the statement is supported by the available evidence
+2. *Bayesian probability*
+ - Subjectivists assign numbers per subjective probability.
 
 
-![alt text](/assets/img/probability_table.svg)
+3. *Independent Events*
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;P(A{\mbox{&space;and&space;}}B)=P(A\cap&space;B)=P(A)P(B)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;P(A{\mbox{&space;and&space;}}B)=P(A\cap&space;B)=P(A)P(B)" title="P(A{\mbox{ and }}B)=P(A\cap B)=P(A)P(B)" /></a>
+
+
+4. *Mutually exclusive events*
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;{\displaystyle&space;P(A{\mbox{&space;and&space;}}B)=P(A\cap&space;B)=0}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;{\displaystyle&space;P(A{\mbox{&space;and&space;}}B)=P(A\cap&space;B)=0}" title="{\displaystyle P(A{\mbox{ and }}B)=P(A\cap B)=0}" /></a>
+
+
+5. *summary of probability*
+
+- A
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;P(A)\in&space;[0,1]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;P(A)\in&space;[0,1]" title="P(A)\in [0,1]" /></a>
+
+
+- not A
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;{\displaystyle&space;P(A^{\complement&space;})=1-P(A)\,}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;{\displaystyle&space;P(A^{\complement&space;})=1-P(A)\,}" title="{\displaystyle P(A^{\complement })=1-P(A)\,}" /></a>
+
+- A or B
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;{\begin{aligned}P(A\cup&space;B)&=P(A)&plus;P(B)-P(A\cap&space;B)\\P(A\cup&space;B)&=P(A)&plus;P(B)\qquad&space;{\mbox{if&space;A&space;and&space;B&space;are&space;mutually&space;exclusive}}\\\end{aligned}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;{\begin{aligned}P(A\cup&space;B)&=P(A)&plus;P(B)-P(A\cap&space;B)\\P(A\cup&space;B)&=P(A)&plus;P(B)\qquad&space;{\mbox{if&space;A&space;and&space;B&space;are&space;mutually&space;exclusive}}\\\end{aligned}}" title="{\begin{aligned}P(A\cup B)&=P(A)+P(B)-P(A\cap B)\\P(A\cup B)&=P(A)+P(B)\qquad {\mbox{if A and B are mutually exclusive}}\\\end{aligned}}" /></a>
+
+
+- A and B
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;{\begin{aligned}P(A\cap&space;B)&=P(A|B)P(B)=P(B|A)P(A)\\P(A\cap&space;B)&=P(A)P(B)\qquad&space;{\mbox{if&space;A&space;and&space;B&space;are&space;independent}}\\\end{aligned}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;{\begin{aligned}P(A\cap&space;B)&=P(A|B)P(B)=P(B|A)P(A)\\P(A\cap&space;B)&=P(A)P(B)\qquad&space;{\mbox{if&space;A&space;and&space;B&space;are&space;independent}}\\\end{aligned}}" title="{\begin{aligned}P(A\cap B)&=P(A|B)P(B)=P(B|A)P(A)\\P(A\cap B)&=P(A)P(B)\qquad {\mbox{if A and B are independent}}\\\end{aligned}}" /></a>
+
+- A given B
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;P(A\mid&space;B)={\frac&space;{P(A\cap&space;B)}{P(B)}}={\frac&space;{P(B|A)P(A)}{P(B)}}\," target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;P(A\mid&space;B)={\frac&space;{P(A\cap&space;B)}{P(B)}}={\frac&space;{P(B|A)P(A)}{P(B)}}\," title="P(A\mid B)={\frac {P(A\cap B)}{P(B)}}={\frac {P(B|A)P(A)}{P(B)}}\," /></a>
+
+
+6. *Kolmogorov axioms*
+
+- first axiom
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;P(A)\in\mathbb{R},&space;P(A)\geq&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;P(A)\in\mathbb{R},&space;P(A)\geq&space;0" title="P(A)\in\mathbb{R}, P(A)\geq 0" /></a>
+
+
+- second axiom
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;P(\Omega)&space;=&space;1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;P(\Omega)&space;=&space;1" title="P(\Omega) = 1" /></a>
+
+
+- third axiom
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;A&space;\cap&space;B&space;=&space;\emptyset&space;\;\;\;&space;\rightarrow&space;\;\;\;&space;P(A&space;\cup&space;B)&space;=&space;P(A)&space;&plus;&space;P(B)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;A&space;\cap&space;B&space;=&space;\emptyset&space;\;\;\;&space;\rightarrow&space;\;\;\;&space;P(A&space;\cup&space;B)&space;=&space;P(A)&space;&plus;&space;P(B)" title="A \cap B = \emptyset \;\;\; \rightarrow \;\;\; P(A \cup B) = P(A) + P(B)" /></a>
 
 
 ***
 *Reference*
+
+
+[Probability - wikipedia](https://en.wikipedia.org/wiki/Probability)
+
+[Probability Axioms- wikipedia](https://en.wikipedia.org/wiki/Probability_axioms)
+
