@@ -4,47 +4,47 @@ title: Bayesian Theorem
 tags: [Math]
 ---
 
-**prior probability**
->현재 가지고 있는 정보를 기초로하여 정한 초기 확률
-<br/>
->확률 시행 전에 이미 가지고 있는 지식을 통해 부여한 확률
-<br/>
-**likelihood probability**
->이미 알고있는 사건이 발생했다는 조건하에 다른 사건이 발생할 확률
-<br/>
->확률 분포의 모수가, 어떤 확률변수의 표집값과 일관되는 정도를 나타내는 값
-<br/>
-**posterior probability**
->사건발생후에 어떤 원인으로 부터 일어난 것이라고 생각되어지는 확률
-<br/>
-추가된 정보로 부터 사전 정보를 새롭게 수정한 확률(수정확률)
-<br/>
+1. *state of theorem*
 
-$$
-{\displaystyle P(A\mid B)\propto P(A)\cdot P(B\mid A)}
-$$
-
-(proportionality over A for given B).
-<br/>
-
-posterior = (likelihood * prior) / evidence
-<br/>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;{\displaystyle&space;P(A\mid&space;B)={\frac&space;{P(B\mid&space;A)\,P(A)}{P(B)}}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;{\displaystyle&space;P(A\mid&space;B)={\frac&space;{P(B\mid&space;A)\,P(A)}{P(B)}}}" title="{\displaystyle P(A\mid B)={\frac {P(B\mid A)\,P(A)}{P(B)}}}" /></a>
 
 
-$$
-{\displaystyle P(A\mid B)={\frac {P(B\mid A)\,P(A)}{P(B)}},}={(likelihood * prior) / {P(B)}}
-$$
+- prior probability (<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;P(A)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;P(A)" title="P(A)" /></a>)
 
->posterior is proportional to prior times likelihood
+the initial degree of belief in A
 
-**drug testing**
->Suppose that a test for using a particular drug is 99% sensitive and 99% specific. That is, the test will produce 99% true positive results for drug users and 99% true negative results for non-drug users. Suppose that 0.5% of people are users of the drug. What is the probability that a randomly selected individual with a positive test is a drug user?
+- likelihood probability (<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;{\displaystyle&space;P(B\mid&space;A)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;{\displaystyle&space;P(B\mid&space;A)}" title="{\displaystyle P(B\mid A)}" /></a>)
 
-$$
-{\displaystyle {\begin{aligned}P({\text{User}}\mid {\text{+}})&={\frac {P({\text{+}}\mid {\text{User}})P({\text{User}})}{P(+)}}\\&={\frac {P({\text{+}}\mid {\text{User}})P({\text{User}})}{P({\text{+}}\mid {\text{User}})P({\text{User}})+P({\text{+}}\mid {\text{Non-user}})P({\text{Non-user}})}}\\[8pt]&={\frac {0.99\times 0.005}{0.99\times 0.005+0.01\times 0.995}}\\[8pt]&\approx 33.2\%\end{aligned}}}
-$$
-<br/>
-<br/>
+
+- posterior probability (<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;P(A\mid&space;B)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;P(A\mid&space;B)" title="P(A\mid B)" /></a>)
+
+the probability for A after taking into account B for and against A
+
+
+4. *conditaional probability*
+
+- <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;P(A\mid&space;B)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;P(A\mid&space;B)" title="P(A\mid B)" /></a> conditional probability
+
+ the likelihood of event {\displaystyle A} A occurring given that {\displaystyle B} B is true
+
+ - <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;{\displaystyle&space;P(B\mid&space;A)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;{\displaystyle&space;P(B\mid&space;A)}" title="{\displaystyle P(B\mid A)}" /></a> conditional probability
+
+ the likelihood of event {\displaystyle B} B occurring given that {\displaystyle A} A is true
+
+ - <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;P(A)&space;and&space;{\displaystyle&space;P(B)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;P(A)&space;and&space;{\displaystyle&space;P(B)}" title="P(A) and {\displaystyle P(B)}" /></a> 
+
+  marginal probability
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;{\displaystyle&space;P(A\mid&space;B)\propto&space;P(A)\cdot&space;P(B\mid&space;A)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;{\displaystyle&space;P(A\mid&space;B)\propto&space;P(A)\cdot&space;P(B\mid&space;A)}" title="{\displaystyle P(A\mid B)\propto P(A)\cdot P(B\mid A)}" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;{\displaystyle&space;P(A\mid&space;B)={\frac&space;{P(B\mid&space;A)\,P(A)}{P(B)}}}=\frac{(likelihood&space;*&space;prior)}{{P(B)}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;{\displaystyle&space;P(A\mid&space;B)={\frac&space;{P(B\mid&space;A)\,P(A)}{P(B)}}}=\frac{(likelihood&space;*&space;prior)}{{P(B)}}" title="{\displaystyle P(A\mid B)={\frac {P(B\mid A)\,P(A)}{P(B)}}}=\frac{(likelihood * prior)}{{P(B)}}" /></a>
+
+5. *drug test example*
+
+Suppose that a test for using a particular drug is 99% sensitive and 99% specific. That is, the test will produce 99% true positive results for drug users and 99% true negative results for non-drug users. Suppose that 0.5% of people are users of the drug. What is the probability that a randomly selected individual with a positive test is a drug user?
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;$$&space;{\displaystyle&space;{\begin{aligned}P({\text{User}}\mid&space;{\text{&plus;}})&={\frac&space;{P({\text{&plus;}}\mid&space;{\text{User}})P({\text{User}})}{P(&plus;)}}\\&={\frac&space;{P({\text{&plus;}}\mid&space;{\text{User}})P({\text{User}})}{P({\text{&plus;}}\mid&space;{\text{User}})P({\text{User}})&plus;P({\text{&plus;}}\mid&space;{\text{Non-user}})P({\text{Non-user}})}}\\[8pt]&={\frac&space;{0.99\times&space;0.005}{0.99\times&space;0.005&plus;0.01\times&space;0.995}}\\[8pt]&\approx&space;33.2\%\end{aligned}}}&space;$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;$$&space;{\displaystyle&space;{\begin{aligned}P({\text{User}}\mid&space;{\text{&plus;}})&={\frac&space;{P({\text{&plus;}}\mid&space;{\text{User}})P({\text{User}})}{P(&plus;)}}\\&={\frac&space;{P({\text{&plus;}}\mid&space;{\text{User}})P({\text{User}})}{P({\text{&plus;}}\mid&space;{\text{User}})P({\text{User}})&plus;P({\text{&plus;}}\mid&space;{\text{Non-user}})P({\text{Non-user}})}}\\[8pt]&={\frac&space;{0.99\times&space;0.005}{0.99\times&space;0.005&plus;0.01\times&space;0.995}}\\[8pt]&\approx&space;33.2\%\end{aligned}}}&space;$$" title="$$ {\displaystyle {\begin{aligned}P({\text{User}}\mid {\text{+}})&={\frac {P({\text{+}}\mid {\text{User}})P({\text{User}})}{P(+)}}\\&={\frac {P({\text{+}}\mid {\text{User}})P({\text{User}})}{P({\text{+}}\mid {\text{User}})P({\text{User}})+P({\text{+}}\mid {\text{Non-user}})P({\text{Non-user}})}}\\[8pt]&={\frac {0.99\times 0.005}{0.99\times 0.005+0.01\times 0.995}}\\[8pt]&\approx 33.2\%\end{aligned}}} $$" /></a>
+
 
 ![alt text](/assets/img/bayes_ex.png)
 
@@ -52,4 +52,7 @@ $$
 ***
 *Reference*
 
-[확률과 통계이론 베이즈정리](http://j1w2k3.tistory.com/1009)
+[bayesian theorem - wikipedia](https://en.wikipedia.org/wiki/Bayes%27_theorem)
+
+[posterior probability - wikipedia](https://en.wikipedia.org/wiki/Posterior_probability)
+
