@@ -59,7 +59,7 @@ $ ssh -i ~/.ssh/id_rsa ubuntu@ec2-13-125-60-197.ap-northeast-2.compute.amazonaws
 ```
 
 
-4. *Google Cloud Platform**
+4. *Google Cloud Platform*
 
 
 - GCP SSH key register

@@ -3,187 +3,89 @@ layout: post
 title: Probability Model
 tags: [Math]
 ---
-**discrete random variable** <br/>
-> one for which, for any value in the range that the variable is permitted to take on, there is a positive minimum distance to the nearest other permissible value.
 
+1. *discrete random variable*
 
+ When the image of X is finite or countably infinite, the random variable is called a discrete random variable
 
-**continuous random variable** <br/>
-> one which can take on infinitely many, uncountable values
+- Probability Mass Function
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;f_{X}(x)=\Pr(X=x)=\Pr(\{s\in&space;S:X(s)=x\})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;f_{X}(x)=\Pr(X=x)=\Pr(\{s\in&space;S:X(s)=x\})" title="f_{X}(x)=\Pr(X=x)=\Pr(\{s\in S:X(s)=x\})" /></a>
 
-![alt text](/assets/img/pdf.png)
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\sum&space;_{x\in&space;A}f_{X}(x)=1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\sum&space;_{x\in&space;A}f_{X}(x)=1" title="\sum _{x\in A}f_{X}(x)=1" /></a>
 
-**probability density function formal form** <br/>
-$$
-\Pr[a\leq X\leq b]=\int _{a}^{b}f_{X}(x)\,dx
-$$
-<br/>
+2. *continuous random variable*
 
+When the image is uncountably infinite then X is called continuous random variable
 
+- Probability Density Function
 
-**expectation** <br/>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\Pr[a\leq&space;X\leq&space;b]=\int&space;_{a}^{b}f_{X}(x)\,dx" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\Pr[a\leq&space;X\leq&space;b]=\int&space;_{a}^{b}f_{X}(x)\,dx" title="\Pr[a\leq X\leq b]=\int _{a}^{b}f_{X}(x)\,dx" /></a>
 
-$
-m = \bar{x} = \dfrac{1}{N}\sum_{i=1}^{N} x_i
-$
-
-<br/>
-
-**expectation properties**
-
-<br/>
-<br/>
-
-$
-\operatorname{E}[c] = c
-\begin{align}
-$
-
-<br/>
-
-$
-\operatorname{E}[cX]    &= c \operatorname{E}[X] \\
-$
-
-<br/>
-
-$
-\operatorname{E}[X + Y] &=   \operatorname{E}[X] + \operatorname{E}[Y]
-\end{align}
-$
-
-<br/>
-
-$
-\operatorname{E}[ \bar{X} ] = \operatorname{E}[X]
-$
-
-**mean, median, mode** <br/>
+3. *mean, median, mode*
 
 ![alt text](/assets/img/Visualisation_mode_median_mean.svg.png)
 
 
-**sample variance** <br/>
-biased sample variance:
+4. *Moments*
 
-$$
-s^2 = \dfrac{1}{N}\sum_{i=1}^{N} (x_i-m)^2
-$$
+- first moment (Expectation)
 
-<br/>
-unbiased sample variance:
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;{\displaystyle&space;\mu&space;\equiv&space;\operatorname&space;{E}&space;[X]}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;{\displaystyle&space;\mu&space;\equiv&space;\operatorname&space;{E}&space;[X]}" title="{\displaystyle \mu \equiv \operatorname {E} [X]}" /></a>
 
-$$
-s^2_{\text{unbiased}} = \dfrac{1}{N-1}\sum_{i=1}^{N} (x_i-m)^2
-$$
+- sample mean
 
-<br/>
-<br/>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\text{E}[\bar{X}]&space;=&space;\text{E}[{X}]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\text{E}[\bar{X}]&space;=&space;\text{E}[{X}]" title="\text{E}[\bar{X}] = \text{E}[{X}]" /></a>
 
-**variance** <br/>
-<br/>
+- expectation properties
 
-variance formal equation
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\operatorname{E}[c]&space;=&space;c" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\operatorname{E}[c]&space;=&space;c" title="\operatorname{E}[c] = c" /></a>
 
-$$
-\sigma^2 = \text{Var}[X] = \text{E}[(X - \mu)^2]
-$$
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\operatorname{E}[cX]&space;&=&space;c&space;\operatorname{E}[X]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\operatorname{E}[cX]&space;&=&space;c&space;\operatorname{E}[X]" title="\operatorname{E}[cX] &= c \operatorname{E}[X]" /></a>
 
-<br/>
-probability density function variance
-<br/>
-
-$$
-\sigma^2 = \text{Var}[X] = \text{E}[(X - \mu)^2] =  \sum (x - \mu)^2 P(x)
-$$
-
-<br/>
-
-$$
-\sigma^2 = \text{Var}[X] = \text{E}[(X - \mu)^2] = \int_{-\infty}^{\infty} (x - \mu)^2 f(x)dx
-$$
-
-**variance properties** <br/>
-
-$$
-\text{Var}[X] \geq 0
-$$
-
-<br/>
-
-$$
-\text{Var}[c] = 0
-$$
-
-<br/>
-
-$$
-\text{Var}[cX] = c^2 \text{Var}[X]
-$$
-
-<br/>
-
-$$
-\text{Var}[X] = \text{E}[X^2] - (\text{E}[X])^2  = \text{E}[X^2] - \mu^2
-$$
-
-<br/>
-when two ramdom variables are independent,
-<br/>
-
-$$
-\text{Var}\left[ X + Y \right] =  \text{Var}\left[ X \right] + \text{Var}\left[ Y \right]
-$$
-
-**sample expectation of variance** <br/>
-sample expectation
-
-$$
-\text{E}[\bar{X}] = \text{E}[{X}]
-$$
-
-<br/>
-sample variance
-
-$$
-\text{Var}[\bar{X}] = \dfrac{1}{N} \text{Var}[{X}]
-$$
-
-**sample variance of expectation** <br/>
-
-$$
-\text{E}[s^2] = \dfrac{N-1}{N}\sigma^2
-$$
-
-<br/>
-be more specifically,
-<br/>
-
-$$
-\sigma^2
-= \dfrac{N}{N-1} \text{E}[s^2]
-= \dfrac{N}{N-1} \text{E} \left[ \dfrac{1}{N} \sum (X_i-\bar{X})^2 \right]
-= \text{E} \left[ \dfrac{1}{N-1} \sum (X_i-\bar{X})^2 \right]
-= \text{E} \left[ s^2_{\text{unbiased}} \right]
-$$
-
-<br/>
-<br/>
-<br/>
-
-**moment**
-<br/>
-<br/>
-
-1차 모멘트 =  E[X]  : 기댓값 (Expectation) <br/>
-2차 모멘트 =  E[(X−μ)2]  : 분산 (Variance) <br/>
-3차 모멘트 =  E[(X−μ)3]  : 스큐니스 (Skewness) <br/>
-4차 모멘트 =  E[(X−μ)4]  : 커토시스 (Kurtosis) <br/>
-<br/>
-<br/>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\operatorname{E}[X&space;&plus;&space;Y]&space;&=&space;\operatorname{E}[X]&space;&plus;&space;\operatorname{E}[Y]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\operatorname{E}[X&space;&plus;&space;Y]&space;&=&space;\operatorname{E}[X]&space;&plus;&space;\operatorname{E}[Y]" title="\operatorname{E}[X + Y] &= \operatorname{E}[X] + \operatorname{E}[Y]" /></a>
 
 
+- second moment (variance)
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;{\displaystyle&space;\sigma^{2}&space;=&space;\left\operatorname&space;{E}&space;\left[(x-\mu&space;)^{2}\right]\right}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;{\displaystyle&space;\sigma^{2}&space;=&space;\left\operatorname&space;{E}&space;\left[(x-\mu&space;)^{2}\right]\right}" title="{\displaystyle \sigma^{2} = \left\operatorname {E} \left[(x-\mu )^{2}\right]\right}" /></a>
+
+- sample variance
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\text{Var}[\bar{X}]&space;=&space;\dfrac{1}{N}&space;\text{Var}[{X}]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\text{Var}[\bar{X}]&space;=&space;\dfrac{1}{N}&space;\text{Var}[{X}]" title="\text{Var}[\bar{X}] = \dfrac{1}{N} \text{Var}[{X}]" /></a>
+
+- biased sample variance
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;s^2&space;=&space;\dfrac{1}{N}\sum_{i=1}^{N}&space;(x_i-m)^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;s^2&space;=&space;\dfrac{1}{N}\sum_{i=1}^{N}&space;(x_i-m)^2" title="s^2 = \dfrac{1}{N}\sum_{i=1}^{N} (x_i-m)^2" /></a>
+
+- unbiased sample variance
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;s^2_{\text{unbiased}}&space;=&space;\dfrac{1}{N-1}\sum_{i=1}^{N}&space;(x_i-m)^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;s^2_{\text{unbiased}}&space;=&space;\dfrac{1}{N-1}\sum_{i=1}^{N}&space;(x_i-m)^2" title="s^2_{\text{unbiased}} = \dfrac{1}{N-1}\sum_{i=1}^{N} (x_i-m)^2" /></a>
+
+- variance properties
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\text{Var}[c]&space;=&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\text{Var}[c]&space;=&space;0" title="\text{Var}[c] = 0" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\text{Var}[cX]&space;=&space;c^2&space;\text{Var}[X]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\text{Var}[cX]&space;=&space;c^2&space;\text{Var}[X]" title="\text{Var}[cX] = c^2 \text{Var}[X]" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\text{Var}[X]&space;=&space;\text{E}[X^2]&space;-&space;(\text{E}[X])^2&space;=&space;\text{E}[X^2]&space;-&space;\mu^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\text{Var}[X]&space;=&space;\text{E}[X^2]&space;-&space;(\text{E}[X])^2&space;=&space;\text{E}[X^2]&space;-&space;\mu^2" title="\text{Var}[X] = \text{E}[X^2] - (\text{E}[X])^2 = \text{E}[X^2] - \mu^2" /></a>
+
+
+- third moment (Skewness)
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\text{E}[(X-\mu)^3]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\text{E}[(X-\mu)^3]" title="\text{E}[(X-\mu)^3]" /></a>
+
+- fourth moment (Kurtosis)
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\text{E}[(X-\mu)^4]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\text{E}[(X-\mu)^4]" title="\text{E}[(X-\mu)^4]" /></a>
 
 ***
 *Reference*
+
+[random variable - wikipedia](https://en.wikipedia.org/wiki/Random_variable)
+
+[moment (mathmatics) - wikipedia](https://en.wikipedia.org/wiki/Moment_(mathematics))
+
+[expected value - wikipedia](https://en.wikipedia.org/wiki/Expected_value#Basic_properties)
+
+[variance - wikipedia](https://en.wikipedia.org/wiki/Variance)

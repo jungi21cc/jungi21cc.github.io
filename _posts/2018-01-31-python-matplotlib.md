@@ -145,7 +145,7 @@ fig.colorbar(surf, shrink=0.5, aspect=5)
 plt.show()
 ```
 
-![alt text](/assets/img/sphx_glr_surface3d_001.png)
+![alt text](/assets/img/sphx_glr_surface3d_0011.png)
 
 
 
