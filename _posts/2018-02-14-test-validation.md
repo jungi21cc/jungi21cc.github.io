@@ -2,6 +2,7 @@
 layout: post
 title: Test statistic
 tags: [Math]
+
 ---
 
 ### 1. *null hypothesis*

@@ -2,6 +2,7 @@
 layout: post
 title: Python matplotlib
 tags: [Computer Science]
+
 ---
 
 ### 1. *matplotlib*

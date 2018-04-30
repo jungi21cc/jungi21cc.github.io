@@ -2,6 +2,7 @@
 layout: post
 title: covariance & correlation
 tags: [Math]
+
 ---
 
 ### 1. *sample covariance*

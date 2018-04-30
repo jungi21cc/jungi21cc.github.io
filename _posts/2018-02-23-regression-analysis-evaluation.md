@@ -2,6 +2,7 @@
 layout: post
 title: Regression Analysis Regularization
 tags: [Math]
+
 ---
 
 ### 1. *Ridge*

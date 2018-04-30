@@ -2,6 +2,7 @@
 layout: post
 title: Dummy variable data analysis
 tags: [Math]
+
 ---
 
 ### 1. *Incorporating a dummy variable*

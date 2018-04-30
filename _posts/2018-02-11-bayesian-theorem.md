@@ -2,6 +2,7 @@
 layout: post
 title: Bayesian Theorem
 tags: [Math]
+
 ---
 
 ### 1. *state of theorem*

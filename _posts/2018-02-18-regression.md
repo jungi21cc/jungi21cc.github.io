@@ -2,6 +2,7 @@
 layout: post
 title: Regression
 tags: [Math]
+
 ---
 
 ### 1. *ordinary Least Square*

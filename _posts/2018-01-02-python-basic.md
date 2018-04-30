@@ -2,6 +2,7 @@
 layout: post
 title: Python Basic
 tags: [Computer Science]
+
 ---
 
 ### 1. *Class*

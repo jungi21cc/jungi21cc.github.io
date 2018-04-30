@@ -2,6 +2,7 @@
 layout: post
 title: Distribution
 tags: [Math]
+
 ---
 
 ### 1. *continuous probability Distribution*

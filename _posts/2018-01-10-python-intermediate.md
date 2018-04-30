@@ -2,6 +2,7 @@
 layout: post
 title: Python Intermediate
 tags: [Computer Science]
+
 ---
 
 ### 1. *List Comprehension*

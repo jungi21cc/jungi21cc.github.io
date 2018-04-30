@@ -2,6 +2,7 @@
 layout: post
 title: Python numpy
 tags: [Computer Science]
+
 ---
 
 ### 1. *Numpy operations*

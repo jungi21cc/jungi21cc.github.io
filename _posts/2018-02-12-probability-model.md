@@ -2,6 +2,7 @@
 layout: post
 title: Probability Model
 tags: [Math]
+
 ---
 
 ### 1. *discrete random variable*

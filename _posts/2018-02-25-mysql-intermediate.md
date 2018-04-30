@@ -2,7 +2,10 @@
 layout: post
 title: MySQL - intermediate
 tags: [Computer Science]
+
 ---
+
+
 
 ### 1. *CEIL, ROUND, TRUNCATE*
 

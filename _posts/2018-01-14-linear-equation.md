@@ -2,6 +2,7 @@
 layout: post
 title: Linear Equation
 tags: [Math, Linear Algebra]
+
 ---
 
 ### *System of linear equations*

@@ -2,6 +2,7 @@
 layout: post
 title: Regression Result Report
 tags: [Math]
+
 ---
 
 ### 1. *OLS regression report*
