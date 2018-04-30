@@ -5,6 +5,7 @@ tags: [Math]
 
 ---
 
+### Probability
 
 ### 1. *frequentist probability*
 

@@ -5,6 +5,8 @@ tags: [Computer Science]
 
 ---
 
+### Python Intermediate
+
 ### 1. *List Comprehension*
 
 #### - list comprehension

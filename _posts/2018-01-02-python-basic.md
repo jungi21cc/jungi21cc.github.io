@@ -5,6 +5,8 @@ tags: [Computer Science]
 
 ---
 
+### Python Basic
+
 ### 1. *Class*
 
 ```python

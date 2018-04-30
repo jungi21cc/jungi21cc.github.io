@@ -5,6 +5,8 @@ tags: [Math]
 
 ---
 
+### Regression
+
 ### 1. *ordinary Least Square*
 
 ![alt text](/assets/img/ols_regression.png)
