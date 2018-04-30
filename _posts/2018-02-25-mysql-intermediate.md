@@ -5,7 +5,7 @@ tags: [Computer Science]
 
 ---
 
-
+### MySQL - intermediate
 
 ### 1. *CEIL, ROUND, TRUNCATE*
 

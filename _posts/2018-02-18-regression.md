@@ -25,13 +25,11 @@ tags: [Math]
 
 ### 2. *assumption*
 
-- ${\displaystyle \scriptstyle {\hat {\beta }}}$  and s2 are unbiased
+- <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;$\operatorname&space;{E}&space;[\,{\hat&space;{\beta&space;}}\mid&space;X\,]=\beta&space;,\quad&space;\operatorname&space;{E}&space;[\,s^{2}\mid&space;X\,]=\sigma&space;^{2}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;$\operatorname&space;{E}&space;[\,{\hat&space;{\beta&space;}}\mid&space;X\,]=\beta&space;,\quad&space;\operatorname&space;{E}&space;[\,s^{2}\mid&space;X\,]=\sigma&space;^{2}$" title="$\operatorname {E} [\,{\hat {\beta }}\mid X\,]=\beta ,\quad \operatorname {E} [\,s^{2}\mid X\,]=\sigma ^{2}$" /></a>
 
-- $\operatorname {E} [\,{\hat {\beta }}\mid X\,]=\beta ,\quad \operatorname {E} [\,s^{2}\mid X\,]=\sigma ^{2}$
+- <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;$\operatorname&space;{Var}&space;[\,{\hat&space;{\beta&space;}}\mid&space;X\,]=\sigma&space;^{2}(X^{T}X)^{-1}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;$\operatorname&space;{Var}&space;[\,{\hat&space;{\beta&space;}}\mid&space;X\,]=\sigma&space;^{2}(X^{T}X)^{-1}$" title="$\operatorname {Var} [\,{\hat {\beta }}\mid X\,]=\sigma ^{2}(X^{T}X)^{-1}$" /></a>
 
-- $\operatorname {Var} [\,{\hat {\beta }}\mid X\,]=\sigma ^{2}(X^{T}X)^{-1}$
-
-- $\operatorname {Cov} [\,{\hat {\beta }},{\hat {\varepsilon }}\mid X\,]=0$
+- <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;$\operatorname&space;{Cov}&space;[\,{\hat&space;{\beta&space;}},{\hat&space;{\varepsilon&space;}}\mid&space;X\,]=0$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;$\operatorname&space;{Cov}&space;[\,{\hat&space;{\beta&space;}},{\hat&space;{\varepsilon&space;}}\mid&space;X\,]=0$" title="$\operatorname {Cov} [\,{\hat {\beta }},{\hat {\varepsilon }}\mid X\,]=0$" /></a>
 
 - BLUE (best linear unbiased estimator)
 
@@ -39,7 +37,7 @@ tags: [Math]
 
 - normalatiy
 
-${\displaystyle {\hat {\beta }}\ \sim \ {\mathcal {N}}{\big (}\beta ,\ \sigma ^{2}(X^{\mathrm {T} }X)^{-1}{\big )}}$
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;${\displaystyle&space;{\hat&space;{\beta&space;}}\&space;\sim&space;\&space;{\mathcal&space;{N}}{\big&space;(}\beta&space;,\&space;\sigma&space;^{2}(X^{\mathrm&space;{T}&space;}X)^{-1}{\big&space;)}}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;${\displaystyle&space;{\hat&space;{\beta&space;}}\&space;\sim&space;\&space;{\mathcal&space;{N}}{\big&space;(}\beta&space;,\&space;\sigma&space;^{2}(X^{\mathrm&space;{T}&space;}X)^{-1}{\big&space;)}}$" title="${\displaystyle {\hat {\beta }}\ \sim \ {\mathcal {N}}{\big (}\beta ,\ \sigma ^{2}(X^{\mathrm {T} }X)^{-1}{\big )}}$" /></a>
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;s^{2}\&space;\sim&space;\&space;{\frac&space;{\sigma&space;^{2}}{n-p}}\cdot&space;\chi&space;_{n-p}^{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;s^{2}\&space;\sim&space;\&space;{\frac&space;{\sigma&space;^{2}}{n-p}}\cdot&space;\chi&space;_{n-p}^{2}" title="s^{2}\ \sim \ {\frac {\sigma ^{2}}{n-p}}\cdot \chi _{n-p}^{2}" /></a>
 
