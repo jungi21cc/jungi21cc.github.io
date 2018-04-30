@@ -4,30 +4,30 @@ title: Bayesian Theorem
 tags: [Math]
 ---
 
-1. *state of theorem*
+### 1. *state of theorem*
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;{\displaystyle&space;P(A\mid&space;B)={\frac&space;{P(B\mid&space;A)\,P(A)}{P(B)}}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;{\displaystyle&space;P(A\mid&space;B)={\frac&space;{P(B\mid&space;A)\,P(A)}{P(B)}}}" title="{\displaystyle P(A\mid B)={\frac {P(B\mid A)\,P(A)}{P(B)}}}" /></a>
 
 
-- prior probability 
+#### - prior probability 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;P(A)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;P(A)" title="P(A)" /></a>
 
 the initial degree of belief in A
 
-- likelihood probability 
+#### - likelihood probability 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;{\displaystyle&space;P(B\mid&space;A)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;{\displaystyle&space;P(B\mid&space;A)}" title="{\displaystyle P(B\mid A)}" /></a>
 
 
-- posterior probability 
+#### - poterior probability 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;P(A\mid&space;B)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;P(A\mid&space;B)" title="P(A\mid B)" /></a>
 
 the probability for A after taking into account B for and against A
 
 
-2. *conditaional probability*
+### 2. *conditaional probability*
 
 - <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;P(A\mid&space;B)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;P(A\mid&space;B)" title="P(A\mid B)" /></a> 
 
@@ -49,7 +49,7 @@ marginal probability
 
 
 
-3. *drug test example*
+### 3. *drug test example*
 
 Suppose that a test for using a particular drug is 99% sensitive and 99% specific. That is, the test will produce 99% true positive results for drug users and 99% true negative results for non-drug users. Suppose that 0.5% of people are users of the drug. What is the probability that a randomly selected individual with a positive test is a drug user?
 

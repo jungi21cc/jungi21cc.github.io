@@ -4,7 +4,7 @@ title: Python Basic
 tags: [Computer Science]
 ---
 
-1. **Class**
+### 1. *Class*
 
 ```python
 class calculator:
@@ -36,9 +36,9 @@ result = c3.add()
 print(result)
 ```
 
-2. **@property**
+### 2. *@property*
 
-- getter / setter
+#### - getter / setter
 
 ```python
 class Test:
@@ -62,7 +62,7 @@ if __name__ == '__main__':
     print(t.get_color())
 ```
 
-- property
+#### - property
 
 ```python
 class Test:
@@ -88,7 +88,7 @@ if __name__ == '__main__':
 ```
 
 
-3. **@decorator**
+### 3. *@decorator*
 
 ```python
 def aaa():

@@ -4,7 +4,7 @@ title: Flask with machine learning
 tags: [Computer Science]
 ---
 
-1. *flask*
+### 1. *flask*
 
 ```
 $ touch dss.py
@@ -16,7 +16,7 @@ $ touch index.html
 $ cd ..
 ```
 
-- flask with dss.py
+#### - flask with dss.py
 
 ```python
 from flask import Flask, render_template, request, jsonify
@@ -59,7 +59,7 @@ if __name__ == '__main__':
 #$ python3 dss.py
 ```
 
-- index.html
+#### - index.html
 
 ```html
 at ATOM
@@ -81,11 +81,11 @@ html ==> enter
 
 ```
 
-- templates via CSS
+#### - templates via CSS
 
->bootstrap - documentation - alert, buttons
+bootstrap - documentation - alert, buttons
 
->highcharts - highcart demo - pie chart - html 3 scripts
+highcharts - highcart demo - pie chart - html 3 scripts
 
 
 

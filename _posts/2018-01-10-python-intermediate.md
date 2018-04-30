@@ -4,9 +4,9 @@ title: Python Intermediate
 tags: [Computer Science]
 ---
 
-1. **List Comprehension**
+### 1. *List Comprehension*
 
-- *list comprehension*
+#### - list comprehension
 
 ```python
 multiples = []
@@ -25,7 +25,9 @@ multiples = [n*5 for n in range(1,11)]
 print(multiples)
 # [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
 ```
-- *list comprehension conditional statement*
+
+#### - list comprehension conditional statement
+
 
 ```python
 evens = []
@@ -67,9 +69,9 @@ print(squares_cubes)
 # [1, 4, 3, 16, 5, 36, 7, 64, 9, 100]
 ```
 
-2. **Lambda Function**
+### 2. *Lambda Function*
 
-- *lambda function*
+#### - lambda function
 
 ```python
 def sum_func(x, y):
@@ -86,7 +88,7 @@ sum_func2(5,6)
 # 11
 ```
 
-- *map*
+#### - map
 
 ```python
 def sum_two(numberList):
@@ -119,7 +121,7 @@ list(map(sum_two_map, numberList))
 # [3, 4, 5, 6, 7, 8, 9, 10, 11]
 ```
 
-- map with lambda function
+#### - map with lambda function
 
 ```python
 # map with lambda function
@@ -130,7 +132,7 @@ list(map(lambda number : number + 2, numberList))
 # [3, 4, 5, 6, 7, 8, 9, 10, 11]
 ````
 
-- *filter*
+#### - filter
 
 ```python
 def get_odd(number_List):
@@ -161,7 +163,7 @@ list(filter(odd1, numberList)), list(filter(odd2, numberList))
 # ([0, 2, 4, 6, 8], [0, 2, 4, 6, 8])
 ```
 
-- filter with lambda function
+#### - filter with lambda function
 
 ```python
 # filter with labmda function
@@ -170,7 +172,7 @@ list(filter(lambda number : number % 2 == 0, numberList))
 # [0, 2, 4, 6, 8]
 ```
 
-- *reduce*
+#### - reduce
 
 ```python
 from functools import reduce
@@ -180,7 +182,7 @@ reduce(lambda x, y: x + y, a)
 # 15
 ```
 
-- reduce with lambda function
+#### - reduce with lambda function
 
 ```python
 # pick the largest number
@@ -189,9 +191,9 @@ reduce(lambda x, y: x if x > y else y, a)
 # 5
 ```
 
-3. **Closure**
+### 3. *Closure*
 
-- *inner function*
+#### - inner function
 
 ```python
 def outer(a, b):
@@ -206,7 +208,7 @@ print(outer(4,7))
 ```
 
 
-4. **generator**
+### 4. *generator*
 
 
 ```python
@@ -257,9 +259,9 @@ print(outer(4,7))
 ```
 
 
-5. **args / kwargs**
+### 5. *args / kwargs*
 
-- *args*
+#### - args
 
 ```python
 def print_args(*args):
@@ -291,7 +293,7 @@ print("avg : {}".format(round(a,2)))
 # avg : 83.33
 ```
 
-- *kwargs*
+#### - kwargs
 
 ```python
 def avg_func(**kwargs):

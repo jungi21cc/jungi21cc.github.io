@@ -4,9 +4,9 @@ title: Python matplotlib
 tags: [Computer Science]
 ---
 
-1. *matplotlib*
+### 1. *matplotlib*
 
-- Line Plot
+#### - Line Plot
 
 ```python
 import matplotlib
@@ -26,9 +26,8 @@ plt.show()
 ```
 ![alt text](/assets/img/sphx_glr_simple_plot_0011.png)
 
-sphx_glr_subplot_0011.png
 
-- Multiple subplots in one figure
+#### - Multiple subplots in one figure
 
 ```python
 import numpy as np
@@ -56,7 +55,7 @@ plt.show()
 ![alt text](/assets/img/sphx_glr_subplot_0011.png)
 
 
-- Images
+#### - Images
 
 ```python
 import scipy.misc
@@ -69,10 +68,7 @@ plt.show()
 ![alt text](/assets/img/racoon.png)
 
 
-
-
-
-- Histograms
+#### - Histograms
 
 ```python
 import matplotlib
@@ -110,7 +106,7 @@ plt.show()
 
 
 
-- Three-dimensional plotting
+#### - Three-dimensional plotting
 
 ```python
 from mpl_toolkits.mplot3d import Axes3D
@@ -148,9 +144,7 @@ plt.show()
 ![alt text](/assets/img/sphx_glr_surface3d_0011.png)
 
 
-
-
-- Bar charts
+#### - Bar charts
 
 ```python
 import numpy as np
@@ -199,10 +193,7 @@ plt.show()
 ![alt text](/assets/img/sphx_glr_barchart_demo_001.png)
 
 
-
-
-
-- Pie charts
+#### - Pie charts
 
 ```python
 
@@ -225,7 +216,7 @@ plt.show()
 ![alt text](/assets/img/sphx_glr_pie_features_001.png)
 
 
-- Tables
+#### - Tables
 
 
 ```python
@@ -288,7 +279,7 @@ plt.show()
 
 
 
-- Scatter plots
+#### - Scatter plots
 
 ```python
 import numpy as np
@@ -326,7 +317,7 @@ plt.show()
 
 
 
-- Legends
+#### - Legends
 
 
 ```python

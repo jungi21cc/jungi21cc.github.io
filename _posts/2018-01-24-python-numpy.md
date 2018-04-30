@@ -4,9 +4,9 @@ title: Python numpy
 tags: [Computer Science]
 ---
 
-1. *Numpy operations*
+### 1. *Numpy operations*
 
-- comparison
+#### - comparison
 
 ```python
 a = np.array([1, 2, 3, 4])
@@ -18,7 +18,7 @@ a > b
 # array([False, False,  True, False])
 ```
 
-- Extrema
+#### - Extrema
 
 ```python
 x = np.array([1, 3, 2])
@@ -34,7 +34,7 @@ x.argmax()  # index of maximum
 #1
 ```
 
-- broadcasting
+#### - broadcasting
 
 ```python
 a = np.tile(np.arange(0, 40, 10), (3, 1)).T
@@ -73,9 +73,9 @@ a + b
 #        [30, 31, 32]])
 ```
 
-2. *Numpy Array shape manipulation*
+### 2. *Numpy Array shape manipulation*
 
-- flatten
+#### - flatten
 
 ```python
 a = np.array([[1, 2, 3], [4, 5, 6]])
@@ -89,7 +89,7 @@ a.T.flatten()
 # array([1, 4, 2, 5, 3, 6])
 ```
 
-- reshape
+#### - reshape
 
 ```python
 a.shape
@@ -103,7 +103,7 @@ a.reshape(6,1)
 #        [6]])
 ```
 
-- adding dimension
+#### - adding dimension
 
 ```python
 z = np.array([1, 2, 3])
@@ -117,7 +117,7 @@ z[np.newaxis, :]
 #array([[1, 2, 3]])
 ```
 
-3. *Numpy sort data*
+#### 3. *Numpy sort data*
 
 ```python
 a = np.array([[4, 3, 5], [1, 2, 1]])

@@ -4,7 +4,7 @@ title: Linux command line
 tags: [Computer Science]
 ---
 
-1. *alias*
+### 1. *alias*
 
 ```
 $ vi ~/.bashrc
@@ -22,14 +22,16 @@ $ gcptest1
 
 ```
 
-2. *CPU / memory status check*
+### 2. *CPU / memory status check*
+
 ```
 $ top
 ```
+
 ![alt text](/assets/img/cpu_memory.png)
 
 
-3. *file type convert*
+### 3. *file type convert*
 
 ```
 # ipython nbconvert --to FORMAT notebook.ipynb
@@ -38,7 +40,7 @@ $ ipython nbconvert --to=markdown config_template.ipynb
 
 ```
 
-4. *zip & unzip file or directory*
+### 4. *zip & unzip file or directory*
 
 ```
 #zip

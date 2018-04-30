@@ -4,9 +4,9 @@ title: MySQL - intermediate
 tags: [Computer Science]
 ---
 
-1. **CEIL, ROUND, TRUNCATE**
+### 1. *CEIL, ROUND, TRUNCATE*
 
-- *CEIL*
+#### - CEIL
 
 ```
 SELECT
@@ -14,7 +14,7 @@ CountryCode, Language, Percentage, CEIL(Percentage)
 FROM countrylanguage;
 ```
 
-- *ROUND*
+#### - ROUND
 
 ```
 SELECT
@@ -22,7 +22,7 @@ CountryCode, Language, Percentage, ROUND(Percentage, 0)
 FROM countrylanguage;
 ```
 
-- *TRUNCATE*
+#### - TRUNCATE
 
 ```
 SELECT
@@ -31,9 +31,9 @@ FROM countrylanguage;
 ```
 
 
-2. **Conditional statement**
+### 2. *Conditional statement*
 
-- *IF*
+#### - IF
 
 ```
 SELECT
@@ -41,7 +41,7 @@ name, population, IF(population > 1000000, "big city", "small city") AS city_sca
 FROM city;
 ```
 
-- *IFNULL*
+#### - IFNULL
 
 ```
 SELECT
@@ -49,7 +49,7 @@ IndepYear, IFNULL(IndepYear, 0) as IndepYear
 FROM country;
 ```
 
-- *CASE*
+#### - CASE
 
 ```
 SELECT
@@ -63,7 +63,7 @@ FROM country;
 ```
 
 
-3. **DATE_FORMAT**
+### 3. *DATE_FORMAT*
 
 ```
 SELECT
@@ -72,9 +72,9 @@ FROM payment
 GROUP BY monthly;
 ```
 
-4. **JOIN**
+### 4. *JOIN*
 
-- *inner join*
+#### - inner join
 
 ```
 SELECT
@@ -84,7 +84,7 @@ JOIN addr
 ON user.user_id = addr.user_id;
 ```
 
-- *left join*
+#### - left join
 
 ```
 SELECT
@@ -94,7 +94,7 @@ LEFT JOIN addr
 ON user.user_id = addr.user_id;
 ```
 
-- *right join*
+#### - right join
 
 ```
 SELECT
@@ -104,7 +104,7 @@ RIGHT JOIN addr
 ON user.user_id = addr.user_id;
 ```
 
-5. **UNION**
+### 5. *UNION*
 
 ```
 SELECT
@@ -124,7 +124,7 @@ SELECT addr
 FROM addr;
 ```
 
-6. **sub-query**
+### 6. *sub-query*
 
 ```
 SELECT
@@ -153,7 +153,7 @@ WHERE code IN (SELECT DISTINCT(countrycode)
 FROM city WHERE population > 8000000);
 ```
 
-7. **INDEX**
+### 7. *INDEX*
 
 ```
 EXPLAIN
@@ -162,7 +162,7 @@ FROM city
 WHERE population > 1000000;
 ```
 
-8. **VIEW**
+### 8. *VIEW*
 
 ```
 CREATE VIEW code_name AS

@@ -4,12 +4,12 @@ title: Cloud Server
 tags: [Computer Science]
 ---
 
-1. *security setting*
+### 1. *security setting*
 
-> MFA, fw, password, private key / public key
+MFA, fw, password, private key / public key
 
 
-2. *SSH setting*
+### 2. *SSH setting*
 
 ```
 $ cd ~/.ssh
@@ -45,41 +45,43 @@ $ ls -al oracloud_rsa*
 $ cat [filename].pub
 ```
 
-3. *AWS*
+### 3. *AWS*
 
 
-- SSH setting
->Network & Security - Key pairs - import key pair - import - id_rsa.pub
+#### - SSH setting
+Network & Security - Key pairs - import key pair - import - id_rsa.pub
 
 
-- access server via SSH
+#### - access server via SSH
 
 ```
 $ ssh -i ~/.ssh/id_rsa ubuntu@ec2-13-125-60-197.ap-northeast-2.compute.amazonaws.com
 ```
 
 
-4. *Google Cloud Platform*
+### 4. *Google Cloud Platform*
 
 
-- GCP SSH key register
->Compute Engine - Meta Data - SSH key - register
+#### - GCP SSH key register
+
+Compute Engine - Meta Data - SSH key - register
 
 
-- VM instance create
->set CPU and memory - check HTTP / HTTPS traffic - copy & paste SSH key from SSH key - register
+#### - VM instance create
+
+set CPU and memory - check HTTP / HTTPS traffic - copy & paste SSH key from SSH key - register
 
 
-- connect VM via SSH file
+#### - connect VM via SSH file
 
 ```
 #ip address is public ip address from VM instance
 $ ssh -i ~/.ssh/[File_name] Username@00.000.00.00
 ```
 
-- network security setting
+#### - network security setting
 
->VPC network - firewall rule - create firewall rule
+VPC network - firewall rule - create firewall rule
 
 ```
 name : jupyter
@@ -89,10 +91,10 @@ Specified protocols and ports : tcp:8888
 ```
 
 
-5. *Anaconda & Jupyter setting*
+### 5. *Anaconda & Jupyter setting*
 
 
-- Anaconda install on terminal
+#### - Anaconda install on terminal
 
 ```
 $ cd /tmp
@@ -126,9 +128,9 @@ $ pip install jupyter
 
 ```
 
-6. *Jupyter notebook setting*
+### 6. *Jupyter notebook setting*
 
-- jupyter notebook password setting
+#### - jupyter notebook password setting
 
 ```
 $ jupyter notebook --generate-config
@@ -144,7 +146,7 @@ sha1:f24baff49ac5:863dd2ae747212ede58125302d227f0ca7b12bb3
 $ exit
 ```
 
-- jupyter notebook port & ip setting
+#### - jupyter notebook port & ip setting
 
 
 ```
@@ -159,16 +161,17 @@ c.NotebookApp.port = 8888
 $ jupyter lab &
 ```
 
-- open web-browser and access with public ip
->13.125.60.197:8888
+#### - open web-browser and access with public ip
+
+13.125.60.197:8888
 
 
 
-7. *FTP application*
+### 7. *FTP application*
 
-- FileZilla setting
+#### - FileZilla setting
 
-- site manager setting
+#### - site manager setting
 
 ```
 host : fill public ip

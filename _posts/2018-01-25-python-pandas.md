@@ -4,9 +4,9 @@ title: Python pandas
 tags: [Computer Science]
 ---
 
-1. *selection*
+### 1. *selection*
 
-- getting
+#### - getting
 
 ```python
 In [23]: df['A']
@@ -30,7 +30,7 @@ Out[24]:
 
 ```
 
-- selecting by label
+#### - selecting by label
 
 ```python
 In [26]: df.loc[dates[0]]
@@ -42,7 +42,7 @@ D   -1.135632
 Name: 2013-01-01 00:00:00, dtype: float64
 ```
 
-- Selecting by multi label
+#### - Selecting by multi label
 
 ```python
 In [27]: df.loc[:,['A','B']]
@@ -65,7 +65,7 @@ Out[28]:
 2013-01-04  0.721555 -0.706771
 ```
 
-- selection by position
+#### - selection by position
 
 ```python
 In [36]: df.iloc[:,1:3]
@@ -80,9 +80,9 @@ Out[36]:
 ```
 
 
-2. *Merge, join, and concatenate*
+### 2. *Merge, join, and concatenate*
 
-- Concatenating objects
+#### - Concatenating objects
 
 ```python
 In [1]: df1 = pd.DataFrame({'A': ['A0', 'A1', 'A2', 'A3'],
@@ -169,7 +169,7 @@ In [18]: result = pd.concat([df1, s1], axis=1)
 ![alt text](/assets/img/merging_concat_mixed_ndim.png)
 
 
-- concatenating with group keys
+#### - concatenating with group keys
 
 
 ```python
@@ -181,13 +181,13 @@ In [29]: result = pd.concat(pieces)
 
 
 
-- Database-style DataFrame joining/merging
+#### - Database-style DataFrame joining/merging
 
-- one-to-one
+#### - one-to-one
 
-- many-to-one
+#### - many-to-one
 
-- many-to-many
+#### - many-to-many
 
 
 ```python

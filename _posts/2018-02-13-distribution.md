@@ -4,22 +4,24 @@ title: Distribution
 tags: [Math]
 ---
 
-1. *continuous probability Distribution*
+### 1. *continuous probability Distribution*
 
 probability distribution that has a cumulative distribution function that is continuous
 
-- normal distribution(= Gaussian normal distribution)
+#### - normal distribution(= Gaussian normal distribution)
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\mathcal{N}(x;&space;\mu,&space;\sigma^2)&space;=&space;\dfrac{1}{\sqrt{2\pi\sigma^2}}&space;\exp&space;\left(-\dfrac{(x-\mu)^2}{2\sigma^2}\right)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\mathcal{N}(x;&space;\mu,&space;\sigma^2)&space;=&space;\dfrac{1}{\sqrt{2\pi\sigma^2}}&space;\exp&space;\left(-\dfrac{(x-\mu)^2}{2\sigma^2}\right)" title="\mathcal{N}(x; \mu, \sigma^2) = \dfrac{1}{\sqrt{2\pi\sigma^2}} \exp \left(-\dfrac{(x-\mu)^2}{2\sigma^2}\right)" /></a>
 
-- standard normal distribution
+#### - standard normal distribution
 
 when ${\displaystyle \mu =0}$ and ${\displaystyle \sigma =1}$
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\mathcal{N}(x;&space;\0,&space;\1)&space;=&space;\dfrac{1}{\sqrt{2\pi}}&space;\exp&space;\left(-\dfrac{x^2}{2}\right)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\mathcal{N}(x;&space;\0,&space;\1)&space;=&space;\dfrac{1}{\sqrt{2\pi}}&space;\exp&space;\left(-\dfrac{x^2}{2}\right)" title="\mathcal{N}(x; \0, \1) = \dfrac{1}{\sqrt{2\pi}} \exp \left(-\dfrac{x^2}{2}\right)" /></a>
 
+![alt text](350px-Normal_Distribution_PDF.svg.png)
 
-- central limit Theorem
+
+#### - central limit Theorem
 
 when independent random variables are added, their properly normalized sum tends toward a normal distribution even if the original variables themselves are not normally distributed
 
@@ -30,7 +32,7 @@ when independent random variables are added, their properly normalized sum tends
 
 ![alt text](/assets/img/IllustrationCentralTheorem.png)
 
-- Student t distribution
+#### - Student t distribution
 
 any member of a family of continuous probability distributions that arises when estimating the mean of a normally distributed population in situations where the sample size is small and population standard deviation is unknown
 
@@ -42,7 +44,7 @@ any member of a family of continuous probability distributions that arises when 
 ![alt text](/assets/img/student_t.png)
 
 
-- chi-squared distribution
+#### - chi-squared distribution
 
  the distribution of a sum of the squares of k independent standard normal random variables
 
@@ -52,7 +54,7 @@ any member of a family of continuous probability distributions that arises when 
 
 ![alt text](/assets/img/chi_square.png)
 
-- F-distribution
+#### - F-distribution
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dfrac{x_1&space;/&space;n_1}{x_2/&space;n_2}&space;\sim&space;F(n_1,&space;n_2)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dfrac{x_1&space;/&space;n_1}{x_2/&space;n_2}&space;\sim&space;F(n_1,&space;n_2)" title="\dfrac{x_1 / n_1}{x_2/ n_2} \sim F(n_1, n_2)" /></a>
 
@@ -61,43 +63,41 @@ any member of a family of continuous probability distributions that arises when 
 ![alt text](/assets/img/f_distribution.png)
 
 
-2. *Discrete probability Distribution*
+### 2. *Discrete probability Distribution*
 
 probability distribution characterized by a probability mass function
 
 
-- Bernoulli Distribution
+#### - Bernoulli Distribution
 
 
 
 
+#### - Binomial Distribution
 
 
 
-- Binomial Distribution
+#### - Categorical distribution
 
 
 
-- Categorical distribution
-
-
-
-- Multinomial distribution
+#### - Multinomial distribution
 
 
 
 
-3. *Bayesian Estimator*
-> an estimator or decision rule that minimizes the posterior expected value of a loss function
+### 3. *Bayesian Estimator*
 
-*Beta distribution*
->
+an estimator or decision rule that minimizes the posterior expected value of a loss function
 
-*Dirichlet distribution*
->
+#### - Beta distribution
 
-*Gamma distribution*
->
+
+#### - Dirichlet distribution
+
+
+#### - Gamma distribution
+
 
 
 ***

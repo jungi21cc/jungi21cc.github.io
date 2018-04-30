@@ -4,17 +4,17 @@ title: Kaggle API
 tags: [Project]
 ---
 
-1. *Download API token from account setting*
+### 1. *Download API token from account setting*
 
 ![alt text](/assets/img/kaggle_api.png)
 
-2. *install kaggle api*
+### 2. *install kaggle api*
 
 ```
 $ pip install kaggle
 ```
 
-3. *locate api token (kaggle.json) into ~/.kaggle/*
+### 3. *locate api token (kaggle.json) into ~/.kaggle/*
 
 ```
 $ mv ~/Downloads/kaggle.json ~/.kaggle/
@@ -24,9 +24,9 @@ $ ls
 kaggle.json
 ```
 
-4. *use kaggle API*
+### 4. *use kaggle API*
 
-- download competition data via API
+#### - download competition data via API
 
 ```
 # move directory to what you want to place data
@@ -44,7 +44,7 @@ $ unzip stage1_sample_submission.csv.zip
 
 ```
 
-- submit your submission file via API
+#### - submit your submission file via API
 
 ```
 $ kaggle competitions submit -c data-science-bowl-2018 -f submission.csv -m "Message"
