@@ -5,8 +5,6 @@ tags: [Math]
 
 ---
 
-### Distribution
-
 ### 1. *continuous probability Distribution*
 
 probability distribution that has a cumulative distribution function that is continuous

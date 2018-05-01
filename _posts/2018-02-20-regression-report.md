@@ -5,8 +5,6 @@ tags: [Math]
 
 ---
 
-### Regression Result Report
-
 ### 1. *OLS regression report*
 
 ```python

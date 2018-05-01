@@ -5,8 +5,6 @@ tags: [Computer Science]
 
 ---
 
-### Python pandas
-
 ### 1. *selection*
 
 #### - getting

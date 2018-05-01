@@ -5,8 +5,6 @@ tags: [Math]
 
 ---
 
-### Probability Model
-
 ### 1. *discrete random variable*
 
  When the image of X is finite or countably infinite, the random variable is called a discrete random variable

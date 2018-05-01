@@ -5,8 +5,6 @@ tags: [Computer Science]
 
 ---
 
-### Cloud Server
-
 ### 1. *security setting*
 
 MFA, fw, password, private key / public key

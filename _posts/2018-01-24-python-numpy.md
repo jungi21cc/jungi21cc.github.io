@@ -5,8 +5,6 @@ tags: [Computer Science]
 
 ---
 
-### Python numpy
-
 ### 1. *Numpy operations*
 
 #### - comparison
