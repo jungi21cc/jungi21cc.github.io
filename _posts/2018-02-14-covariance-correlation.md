@@ -5,6 +5,8 @@ tags: [Math]
 
 ---
 
+### covariance & correlation
+
 ### 1. *sample covariance*
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;s_{xy}&space;=&space;\dfrac{1}{N}\sum_{i=1}^{N}&space;(x_i-m_x)(y_i-m_y)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;s_{xy}&space;=&space;\dfrac{1}{N}\sum_{i=1}^{N}&space;(x_i-m_x)(y_i-m_y)" title="s_{xy} = \dfrac{1}{N}\sum_{i=1}^{N} (x_i-m_x)(y_i-m_y)" /></a>

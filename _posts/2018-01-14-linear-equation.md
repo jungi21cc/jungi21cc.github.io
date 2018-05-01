@@ -5,6 +5,8 @@ tags: [Math, Linear Algebra]
 
 ---
 
+### Linear Equation
+
 ### *System of linear equations*
 
 ### 1. *general form*

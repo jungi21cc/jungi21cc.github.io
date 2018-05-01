@@ -5,6 +5,8 @@ tags: [Math]
 
 ---
 
+### Bayesian Theorem
+
 ### 1. *state of theorem*
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;{\displaystyle&space;P(A\mid&space;B)={\frac&space;{P(B\mid&space;A)\,P(A)}{P(B)}}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;{\displaystyle&space;P(A\mid&space;B)={\frac&space;{P(B\mid&space;A)\,P(A)}{P(B)}}}" title="{\displaystyle P(A\mid B)={\frac {P(B\mid A)\,P(A)}{P(B)}}}" /></a>

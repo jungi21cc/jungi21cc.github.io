@@ -5,6 +5,8 @@ tags: [Math]
 
 ---
 
+### Dummy variable data analysis
+
 ### 1. *Incorporating a dummy variable*
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;{\displaystyle&space;\ln&space;{\text{wage}}=\alpha&space;_{0}&plus;\delta&space;_{0}{\text{female}}&plus;\alpha&space;_{1}{\text{education}}&plus;u}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;{\displaystyle&space;\ln&space;{\text{wage}}=\alpha&space;_{0}&plus;\delta&space;_{0}{\text{female}}&plus;\alpha&space;_{1}{\text{education}}&plus;u}" title="{\displaystyle \ln {\text{wage}}=\alpha _{0}+\delta _{0}{\text{female}}+\alpha _{1}{\text{education}}+u}" /></a>
