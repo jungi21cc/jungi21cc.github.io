@@ -7,17 +7,17 @@ description: >
 order: 1
 ---
 
-# 2018
+### 2018
 
 **May**
-- (expected) Completed Fastcampus Data Science School 7th
+- Completed Fastcampus Data Science School 7th
 
 **January**
 
-- Started Fastcampus Data Science School 7th
->Data Science bootcamp
+- Started Fastcampus Data Science School
+>Data Science bootcamp 7th
 
-# 2017
+### 2017
 
 **October**
 
@@ -32,7 +32,7 @@ order: 1
 - Left JY Circuit
 
 
-# 2016
+### 2016
 
 **August**
 

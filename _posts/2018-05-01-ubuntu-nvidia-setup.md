@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Ubuntu CUDA setting
+title: Ubuntu Nvidia driver setting
 tags: [Deep Learning]
 
 ---
 
-### Ubuntu CUDA setting
+### Ubuntu Nvidia Driver setting
 
 ### 1. *Nvidia libraries install*
 
@@ -37,4 +37,4 @@ $ watch -n 1 nvidia-smi
 
 *Reference*
 
-https://towardsdatascience.com/building-your-own-deep-learning-box-47b918aea1eb
+[Building your own deep learning box](https://towardsdatascience.com/building-your-own-deep-learning-box-47b918aea1eb)

@@ -22,6 +22,4 @@ tags: [Math]
 ***
 *Reference*
 
-
 [polynomial regression - wikipedia](https://en.wikipedia.org/wiki/Polynomial_regression)
-
