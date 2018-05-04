@@ -9,16 +9,16 @@ tags: [Project]
 
 ![alt text](/assets/img/taxi.png)
 
-# 1 EDA (Exploratory Data Analysis)
+### 1 EDA (Exploratory Data Analysis)
 
-# purpose of  EDA
+### purpose of  EDA
 
 - Suggest hypotheses about the causes of observed phenomena
 - Assess assumptions on which statistical inference will be based
 - Support the selection of appropriate statistical tools and techniques
 - Provide a basis for further data collection through surveys or experiments
 
-# EDA methods
+### EDA methods
 - Graphical techniques used in EDA are:
     - boxplot
         - detailed feature (datetime by month, day of week, hours)
@@ -33,7 +33,7 @@ tags: [Project]
 - Quantative methods:
     - Trimean == tukey method?
 
-# 1.1 Understanding data
+### 1.1 Understanding data
 
 
 ```python
@@ -357,24 +357,24 @@ sample_submission.head()
 
 
 
-# 1.1.a Data type and unit
+### 1.1.a Data type and unit
 
-# unit
+### unit
 
-### 1. latitude / longtitude = decimal degree
+#### 1. latitude / longtitude = decimal degree
 - 111.32mm per 0.000001° / 11.132 m per 0.0001° / 1.1132 km per 0.01° / 111.32 km per 1.0°
 - 14 demical degree
 - ex) 40.767937 , -73.982155
 
-### 2. datetime = year-month-day: hour-minute-second
+#### 2. datetime = year-month-day: hour-minute-second
 
-### 3. vendor_id = 1, 2
+#### 3. vendor_id = 1, 2
 
-### 4. passenger_count = 0 - 9
+#### 4. passenger_count = 0 - 9
 
-### 4. store_and_fwd_flag = N, Y
+#### 4. store_and_fwd_flag = N, Y
 
-### 6. duration = second
+#### 6. duration = second
 - ex) 455 sec = 7min 35sec
 
 
@@ -422,13 +422,13 @@ test.info()
     memory usage: 42.9+ MB
 
 
-# train data
+### train data
 -  1.4M data, 11 columns
 
-# test data
+### test data
 -  0.6M data, 9 columns (no dropoff_datetime, trip_duration)
 
-# 1.1.b Missing Data check
+### 1.1.b Missing Data check
 
 
 ```python
@@ -475,9 +475,9 @@ test.isnull().sum()
 
 
 
-# 1.1.c Trip duration
+### 1.1.c Trip duration
 
-# trip duration calculation validation
+### trip duration calculation validation
 
 
 ```python
@@ -500,7 +500,7 @@ if len(train_d) == 0:
     0
 
 
-# drop odd data
+### drop odd data
 
 
 ```python
@@ -522,7 +522,7 @@ print("after  drop : ", len(train))
     after  drop :  1458640
 
 
-# trip duration visualization
+### trip duration visualization
 
 
 ```python
@@ -540,9 +540,9 @@ plt.show()
 ![png](taxi_V5.0_files/taxi_V5.0_26_0.png)
 
 
-# 1.2 Feature Engineering & Data Cleaning
+### 1.2 Feature Engineering & Data Cleaning
 
-# date time convert
+### date time convert
 
 
 ```python
@@ -713,7 +713,7 @@ train.head()
 
 
 
-# national holiday
+### national holiday
 
 
 ```python
@@ -861,7 +861,7 @@ train['holiday'] = 1 * (train.holiday == True)
 test['holiday'] = 1 * (test.holiday == True)
 ```
 
-# New York City Weather Event
+### New York City Weather Event
 
 
 ```python
@@ -1144,9 +1144,9 @@ test['weather'] = 1 * (test.weather == True)
 driver.close()
 ```
 
-# 1.2.b Distance between pickup and dropoff location
+### 1.2.b Distance between pickup and dropoff location
 
-# uclidean Distance
+### uclidean Distance
 
 
 ```python
@@ -1166,7 +1166,7 @@ train['uclidean'] = uclidean(train.pickup_latitude, train.pickup_longitude, trai
 test['uclidean'] = uclidean(test.pickup_latitude, test.pickup_longitude, test.dropoff_latitude, test.dropoff_longitude)
 ```
 
-# manhatan distance
+### manhatan distance
 
 
 ```python
@@ -1174,7 +1174,7 @@ train['manhatan'] = (abs(train.dropoff_longitude - train.pickup_longitude) + abs
 test['manhatan'] = (abs(test.dropoff_longitude - test.pickup_longitude) + abs(test.dropoff_latitude - test.pickup_latitude)) * 113.2
 ```
 
-## direction
+### direction
 
 
 ```python
@@ -1198,15 +1198,15 @@ train['direction'] = direction(train.pickup_latitude, train.pickup_longitude, tr
 test['direction'] = direction(test.pickup_latitude, test.pickup_longitude, test.dropoff_latitude, test.dropoff_longitude)
 ```
 
-# 1.2.d.2 Spatial Data Analysis
+### 1.2.d.2 Spatial Data Analysis
 
-### Types of spatial analysis
+#### Types of spatial analysis
 - FA(factor analysis)
     - Euclidean metric = > PCA(principal component analysis)
     - Chi-Square distance => Correspondence Analysis (similar to PCA, but better for categrorical data)
     - Generalized Mahalanobis distance => Discriminant Analysis
 
-### stack-up coordinates data
+#### stack-up coordinates data
 
 
 ```python
@@ -1224,7 +1224,7 @@ coord_all = pd.concat([coord_lat, coord_lon], axis=1)
 coord_all.columns = ['lat', 'lon']
 ```
 
-# coordinates scatter plot
+### coordinates scatter plot
 
 
 ```python
@@ -1259,7 +1259,7 @@ plt.show()
 ![png](taxi_V5.0_files/taxi_V5.0_69_0.png)
 
 
-# PCA
+### PCA
 
 
 ```python
@@ -1456,9 +1456,9 @@ train.head()
 
 
 
-# 1.2.d.3 Coordinates Clustering
+### 1.2.d.3 Coordinates Clustering
 
-# Gaussian Mixture
+### Gaussian Mixture
 
 
 ```python
@@ -1479,9 +1479,9 @@ train['gaus_drop'] = gaus_drop.predict(train[['dropoff_latitude', 'dropoff_longi
 test['gaus_drop'] = gaus_drop.predict(test[['dropoff_latitude', 'dropoff_longitude']])
 ```
 
-# 1.2.d.4 Time data manipulating
+### 1.2.d.4 Time data manipulating
 
-# office hour
+### office hour
 
 
 ```python
@@ -1669,7 +1669,7 @@ train.head()
 
 
 
-# weekend
+### weekend
 
 
 ```python
@@ -1854,9 +1854,9 @@ train.head()
 
 
 
-# 3. Modeling
+### 3. Modeling
 
-# evaluation metric
+### evaluation metric
 
 [Root Mean Squared Logarithmic Error](https://www.kaggle.com/wiki/RootMeanSquaredLogarithmicError)
 
@@ -1871,7 +1871,7 @@ Where:
 - ai is the actual trip duration for i.
 - log(x) is the natural logarithm of x
 
-### data type manipulation
+#### data type manipulation
 - categorical data convert encoding
 
 
@@ -1880,7 +1880,7 @@ train['store_and_fwd_flag'] = 1 * (train.store_and_fwd_flag.values == 'Y')
 test['store_and_fwd_flag'] = 1 * (test.store_and_fwd_flag.values == 'Y')
 ```
 
-# input data shape check
+### input data shape check
 
 
 ```python
@@ -1907,7 +1907,7 @@ y_train = train['trip_duration']
 y_log = np.log(y_train)
 ```
 
-# lightgbm
+### lightgbm
 
 
 ```python
@@ -1976,7 +1976,7 @@ lgb.plot_importance(model_log)
 ![png](taxi_V5.0_files/taxi_V5.0_98_1.png)
 
 
-# Cross Validation
+### Cross Validation
 
 
 ```python
@@ -1989,7 +1989,7 @@ lgb.plot_importance(model_log)
 # cross_lgb
 ```
 
-# OLS
+### OLS
 
 
 ```python
@@ -2068,21 +2068,21 @@ sub.to_csv('submission_OLS.csv',index=False)
     Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/jk/.kaggle/kaggle.json'
     Successfully submitted to New York City Taxi Trip Duration
 
-# Appendix
+### Appendix
 
-### 1. degree of decimal
+#### 1. degree of decimal
 - 0.000001 = 1.11mm
 
-### 2. spatial data analysis
+#### 2. spatial data analysis
 - PCA
 - discriminant analysis
 
-### 3. clustering
+#### 3. clustering
 - K means
 - K nearest neighbor
 - Expectation Maximization
 
-### 4. ensemble methods
+#### 4. ensemble methods
 - aggregation
 - boosting
 
