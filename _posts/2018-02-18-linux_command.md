@@ -56,6 +56,14 @@ $ unzip file.zip -d destination_folder
 
 ```
 
+### 5. *total of disk space used*
+
+```
+$ df -h --total
+```
+
+
+
 ***
 
 *Reference*
@@ -67,3 +75,5 @@ $ unzip file.zip -d destination_folder
 [command line - How to unzip a zip file](https://askubuntu.com/questions/86849/how-to-unzip-a-zip-file-from-the-terminal)
 
 [command line - How can I create a zip archive](https://askubuntu.com/questions/58889/how-can-i-create-a-zip-archive-of-a-whole-directory-via-terminal-without-hidden)
+
+[How do I find the amount of free space on my hard drive?](https://askubuntu.com/questions/73160/how-do-i-find-the-amount-of-free-space-on-my-hard-drive)
