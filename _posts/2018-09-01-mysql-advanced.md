@@ -1,11 +1,11 @@
 ---
 layout: post
-title: MySQL - intermediate
+title: MySQL - Advanced
 tags: [Computer Science]
 
 ---
 
-### MySQL - intermediate
+### MySQL - Advanced
 
 ### 1. *Explain Plan*
 
