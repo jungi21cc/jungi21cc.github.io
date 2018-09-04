@@ -3,13 +3,23 @@ layout: about
 title: About me?
 menu: true
 description: >
-  if you have any question, feel free to contact [jungi21cc@gmail.com](mailto:jungi21cc@gmail.com)
+  If you have any question, feel free to contact [jungi21cc@gmail.com](mailto:jungi21cc@gmail.com)
 order: 1
 ---
 
 ### 2018
 
+**August**
+
+- Left Sentience, Inc
+
+**June**
+
+- Joined Sentience, Inc | Seoul, South Korea
+>Software Engineer Intern
+
 **May**
+
 - Completed Fastcampus Data Science School 7th
 
 **January**
@@ -25,7 +35,7 @@ order: 1
 
 **September**
 
-- moved to Seoul, South Korea
+- Moved to Seoul, South Korea
 
 **July**
 
@@ -36,7 +46,7 @@ order: 1
 
 **August**
 
-- Started to work at JY Circuit in San Jose, CA
+- Joined JY Circuit | San Jose, CA
 >PCB Manufacturing company
 
 **July**
