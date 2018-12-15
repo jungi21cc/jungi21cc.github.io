@@ -9,6 +9,13 @@ order: 1
 
 ### 2018
 
+
+**November**
+
+- Joined Watcha, Inc | Seoul, South Korea
+>R&D Intern
+
+
 **August**
 
 - Left Sentience, Inc
