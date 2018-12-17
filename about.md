@@ -13,7 +13,7 @@ order: 1
 **November**
 
 - Joined Watcha, Inc | Seoul, South Korea
->R&D Intern
+>R&D research Intern
 
 
 **August**
